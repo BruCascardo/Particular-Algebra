@@ -56,6 +56,31 @@ import TeoremasSel from './pages/parcial2/escalonada/TeoremasSel';
 import SistemasHomogeneos from './pages/parcial2/escalonada/SistemasHomogeneos';
 import Interpretacion from './pages/parcial2/escalonada/Interpretacion';
 
+// Route Theme Parcial 2 - Tema 3
+import Definicion from './pages/parcial2/matrices/Definicion';
+import IgualesFilasColumnas from './pages/parcial2/matrices/IgualesFilasColumnas';
+import CuadradasNulas from './pages/parcial2/matrices/CuadradasNulas';
+import TriangularesDiagonales from './pages/parcial2/matrices/TriangularesDiagonales';
+import Escalar from './pages/parcial2/matrices/Escalar';
+
+// Route Theme Parcial 2 - Tema 4
+import AdicionEscalar from './pages/parcial2/operaciones/AdicionEscalar';
+import Transposicion from './pages/parcial2/operaciones/Transposicion';
+import ProductoMatricial from './pages/parcial2/operaciones/ProductoMatricial';
+
+// Route Theme Parcial 2 - Tema 5
+import InversaIdentidad from './pages/parcial2/propiedades/InversaIdentidad';
+import SolucionUnica from './pages/parcial2/propiedades/SolucionUnica';
+import Traza from './pages/parcial2/propiedades/Traza';
+import Adicionales from './pages/parcial2/propiedades/Adicionales';
+
+// Route Theme Parcial 2 - Tema 6
+import Concepto from './pages/parcial2/determinantes/Concepto';
+import SarrusChio from './pages/parcial2/determinantes/SarrusChio';
+import Preliminares from './pages/parcial2/determinantes/Preliminares';
+import Inversa from './pages/parcial2/determinantes/Inversa';
+import RelacionTrazaDeterminante from './pages/parcial2/determinantes/RelacionTrazaDeterminante';
+
 const App: React.FC = () => {
   return (
     <>
@@ -119,6 +144,31 @@ const App: React.FC = () => {
         <Route path="/parcial2/escalonada/teoremas-sel" element={<TeoremasSel />} />
         <Route path="/parcial2/escalonada/sistemas-homogeneos" element={<SistemasHomogeneos />} />
         <Route path="/parcial2/escalonada/interpretacion" element={<Interpretacion />} />
+
+        {/* P2 Tema 3: Matrices y Clasificación */}
+        <Route path="/parcial2/matrices/definicion" element={<Definicion />} />
+        <Route path="/parcial2/matrices/iguales-filas-columnas" element={<IgualesFilasColumnas />} />
+        <Route path="/parcial2/matrices/cuadradas-nulas" element={<CuadradasNulas />} />
+        <Route path="/parcial2/matrices/triangulares-diagonales" element={<TriangularesDiagonales />} />
+        <Route path="/parcial2/matrices/escalar" element={<Escalar />} />
+
+        {/* P2 Tema 4: Operaciones con Matrices */}
+        <Route path="/parcial2/operaciones/adicion-escalar" element={<AdicionEscalar />} />
+        <Route path="/parcial2/operaciones/transposicion" element={<Transposicion />} />
+        <Route path="/parcial2/operaciones/producto-matricial" element={<ProductoMatricial />} />
+
+        {/* P2 Tema 5: Propiedades Matriciales */}
+        <Route path="/parcial2/propiedades/inversa-identidad" element={<InversaIdentidad />} />
+        <Route path="/parcial2/propiedades/solucion-unica" element={<SolucionUnica />} />
+        <Route path="/parcial2/propiedades/traza" element={<Traza />} />
+        <Route path="/parcial2/propiedades/adicionales" element={<Adicionales />} />
+
+        {/* P2 Tema 6: Determinantes */}
+        <Route path="/parcial2/determinantes/concepto" element={<Concepto />} />
+        <Route path="/parcial2/determinantes/sarrus-chio" element={<SarrusChio />} />
+        <Route path="/parcial2/determinantes/preliminares" element={<Preliminares />} />
+        <Route path="/parcial2/determinantes/inversa" element={<Inversa />} />
+        <Route path="/parcial2/determinantes/relacion-traza-determinante" element={<RelacionTrazaDeterminante />} />
       </Routes>
     </>
   );

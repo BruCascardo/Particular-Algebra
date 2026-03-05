@@ -35,6 +35,41 @@ const topicLabels: Record<string, string> = {
   '/parcial1/espacio-planos/planos-proyectantes': '6.2. Planos proyectantes',
   '/parcial1/espacio-planos/coplanaridad-rectas': '6.3. Coplanaridad de rectas',
   '/parcial1/espacio-planos/plano-recta-punto': '6.4. Plano, recta y punto',
+
+  // Parcial 2
+  '/parcial2': 'Temario Parcial 2',
+  '/parcial2/sistemas/definicion-solucion': '1.1 Definición y Conj. Solución',
+  '/parcial2/sistemas/compatibles': '1.2 Sistemas Compatibles',
+  '/parcial2/sistemas/incompatibles': '1.3 Sistemas Incompatibles',
+  '/parcial2/sistemas/matriz-ampliada': '1.4 Matriz Ampliada',
+  '/parcial2/sistemas/pivote': '1.5 Pivote y Variable Delantera',
+  '/parcial2/sistemas/variables-libres-rango': '1.6 Variables Libres y Rango',
+  
+  '/parcial2/escalonada/matriz-escalonada': '2.1 Matriz Escalonada',
+  '/parcial2/escalonada/teoremas-sel': '2.2 Teoremas SEL',
+  '/parcial2/escalonada/sistemas-homogeneos': '2.3 Sistemas Homogéneos',
+  '/parcial2/escalonada/interpretacion': '2.4 Interpretación Geomét. y Algeb.',
+
+  '/parcial2/matrices/definicion': '3.1 Definición y Submatrices',
+  '/parcial2/matrices/iguales-filas-columnas': '3.2 Matrices Iguales',
+  '/parcial2/matrices/cuadradas-nulas': '3.3 Cuadradas y Nulas',
+  '/parcial2/matrices/triangulares-diagonales': '3.4 Triangular y Diagonal',
+  '/parcial2/matrices/escalar': '3.5 Matriz Escalar',
+
+  '/parcial2/operaciones/adicion-escalar': '4.1 Adición y Escalar',
+  '/parcial2/operaciones/transposicion': '4.2 Transposición',
+  '/parcial2/operaciones/producto-matricial': '4.3 Producto Matricial',
+
+  '/parcial2/propiedades/inversa-identidad': '5.1 Inversa e Identidad',
+  '/parcial2/propiedades/solucion-unica': '5.2 Solución Única Ax=b',
+  '/parcial2/propiedades/traza': '5.3 Traza',
+  '/parcial2/propiedades/adicionales': '5.4 Prop. Adicionales',
+
+  '/parcial2/determinantes/concepto': '6.1 Concepto y Adjunto',
+  '/parcial2/determinantes/sarrus-chio': '6.2 Reglas Sarrus y Chío',
+  '/parcial2/determinantes/preliminares': '6.3 Matriz Adjunta y Regular',
+  '/parcial2/determinantes/inversa': '6.4 Teoremas de Inversa',
+  '/parcial2/determinantes/relacion-traza-determinante': '6.5 Relac. Traza/Determinante',
 };
 
 const TopicNavigation: React.FC<TopicNavigationProps> = ({
