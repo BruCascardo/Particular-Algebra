@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import SearchBar from '../components/SearchBar';
 import '../App.css';
 
 const Home: React.FC = () => {
@@ -53,6 +54,10 @@ const Home: React.FC = () => {
           Selecciona una sección para comenzar a estudiar.
         </p>
       </header>
+
+      <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+        <SearchBar />
+      </div>
 
       <main className="grid-container">
         {sections.map((section, index) => (
