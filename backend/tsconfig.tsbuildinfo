@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/config/mikro-orm.config.ts","./src/controllers/chatcontroller.ts","./src/entities/chathistory.ts","./src/entities/topic.ts","./src/middlewares/security.ts","./src/routes/chatroutes.ts","./src/services/chatservice.ts"],"errors":true,"version":"5.9.3"}
