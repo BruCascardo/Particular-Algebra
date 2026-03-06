@@ -55,9 +55,8 @@ cd backend
 # Instalar todas las dependencias vitales la primera vez
 npm install
 
-# Iniciar el servidor de desarrollo (con recarga automática)
-npm run dev
-# (Nota: Algunas versiones usan el comando `npx tsx src/index.ts`. Ambas opciones inician el servidor puerto 3001)
+# Iniciar el servidor
+npx tsx src/index.ts
 ```
 Si el archivo `.env` está bien configurado, la consola indicará un mensaje de que la API de Chat está funcionando y conectada.
 
