@@ -4,6 +4,7 @@ import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import Parcial1 from './pages/Parcial1';
 import Parcial2 from './pages/Parcial2';
+import Parcial3 from './pages/Parcial3';
 
 // Theme 1: Vectores
 import SegmentoOrientado from './pages/vectores/SegmentoOrientado';
@@ -81,6 +82,42 @@ import Preliminares from './pages/parcial2/determinantes/Preliminares';
 import Inversa from './pages/parcial2/determinantes/Inversa';
 import RelacionTrazaDeterminante from './pages/parcial2/determinantes/RelacionTrazaDeterminante';
 
+// Route Theme Parcial 3 - Tema 1
+import DefinicionEV from './pages/parcial3/espacios/Definicion';
+import Subespacios from './pages/parcial3/espacios/Subespacios';
+import CombinacionLineal from './pages/parcial3/espacios/CombinacionLineal';
+import DependenciaLineal from './pages/parcial3/espacios/DependenciaLineal';
+import BaseDimension from './pages/parcial3/espacios/BaseDimension';
+import CambioBase from './pages/parcial3/espacios/CambioBase';
+
+// Route Theme Parcial 3 - Tema 2
+import DefinicionPI from './pages/parcial3/producto-interior/Definicion';
+import NormaDistanciaAngulo from './pages/parcial3/producto-interior/NormaDistanciaAngulo';
+import Ortogonalidad from './pages/parcial3/producto-interior/Ortogonalidad';
+import GramSchmidt from './pages/parcial3/producto-interior/GramSchmidt';
+import Proyeccion from './pages/parcial3/producto-interior/Proyeccion';
+
+// Route Theme Parcial 3 - Tema 3
+import DefinicionTL from './pages/parcial3/transformaciones/Definicion';
+import NucleoImagen from './pages/parcial3/transformaciones/NucleoImagen';
+import TeoremaDimensiones from './pages/parcial3/transformaciones/TeoremaDimensiones';
+import MatrizAsociada from './pages/parcial3/transformaciones/MatrizAsociada';
+import ComposicionInversa from './pages/parcial3/transformaciones/ComposicionInversa';
+
+// Route Theme Parcial 3 - Tema 4
+import DefinicionAutovalores from './pages/parcial3/autovalores/Definicion';
+import PolinomioCaracteristico from './pages/parcial3/autovalores/PolinomioCaracteristico';
+import Multiplicidad from './pages/parcial3/autovalores/Multiplicidad';
+import Diagonalizacion from './pages/parcial3/autovalores/Diagonalizacion';
+import DiagonalizacionOrtogonal from './pages/parcial3/autovalores/DiagonalizacionOrtogonal';
+
+// Route Theme Parcial 3 - Tema 5
+import ParabolaCircunferencia from './pages/parcial3/conicas/ParabolaCircunferencia';
+import ElipseHiperbola from './pages/parcial3/conicas/ElipseHiperbola';
+import EcuacionGeneral from './pages/parcial3/conicas/EcuacionGeneral';
+import RotacionTraslacion from './pages/parcial3/conicas/RotacionTraslacion';
+import Cuadricas from './pages/parcial3/conicas/Cuadricas';
+
 const App: React.FC = () => {
   return (
     <>
@@ -89,6 +126,7 @@ const App: React.FC = () => {
         <Route path="/" element={<Home />} />
         <Route path="/parcial1" element={<Parcial1 />} />
         <Route path="/parcial2" element={<Parcial2 />} />
+        <Route path="/parcial3" element={<Parcial3 />} />
         
         {/* ======================= PARCIAL 1 ======================= */}
         
@@ -169,6 +207,44 @@ const App: React.FC = () => {
         <Route path="/parcial2/determinantes/preliminares" element={<Preliminares />} />
         <Route path="/parcial2/determinantes/inversa" element={<Inversa />} />
         <Route path="/parcial2/determinantes/relacion-traza-determinante" element={<RelacionTrazaDeterminante />} />
+
+        {/* ======================= PARCIAL 3 ======================= */}
+        
+        {/* P3 Tema 1: Espacios Vectoriales */}
+        <Route path="/parcial3/espacios/definicion" element={<DefinicionEV />} />
+        <Route path="/parcial3/espacios/subespacios" element={<Subespacios />} />
+        <Route path="/parcial3/espacios/combinacion-lineal" element={<CombinacionLineal />} />
+        <Route path="/parcial3/espacios/dependencia-lineal" element={<DependenciaLineal />} />
+        <Route path="/parcial3/espacios/base-dimension" element={<BaseDimension />} />
+        <Route path="/parcial3/espacios/cambio-base" element={<CambioBase />} />
+
+        {/* P3 Tema 2: Espacios con Producto Interior */}
+        <Route path="/parcial3/producto-interior/definicion" element={<DefinicionPI />} />
+        <Route path="/parcial3/producto-interior/norma-distancia-angulo" element={<NormaDistanciaAngulo />} />
+        <Route path="/parcial3/producto-interior/ortogonalidad" element={<Ortogonalidad />} />
+        <Route path="/parcial3/producto-interior/gram-schmidt" element={<GramSchmidt />} />
+        <Route path="/parcial3/producto-interior/proyeccion" element={<Proyeccion />} />
+
+        {/* P3 Tema 3: Transformaciones Lineales */}
+        <Route path="/parcial3/transformaciones/definicion" element={<DefinicionTL />} />
+        <Route path="/parcial3/transformaciones/nucleo-imagen" element={<NucleoImagen />} />
+        <Route path="/parcial3/transformaciones/teorema-dimensiones" element={<TeoremaDimensiones />} />
+        <Route path="/parcial3/transformaciones/matriz-asociada" element={<MatrizAsociada />} />
+        <Route path="/parcial3/transformaciones/composicion-inversa" element={<ComposicionInversa />} />
+
+        {/* P3 Tema 4: Autovalores y Autovectores */}
+        <Route path="/parcial3/autovalores/definicion" element={<DefinicionAutovalores />} />
+        <Route path="/parcial3/autovalores/polinomio-caracteristico" element={<PolinomioCaracteristico />} />
+        <Route path="/parcial3/autovalores/multiplicidad" element={<Multiplicidad />} />
+        <Route path="/parcial3/autovalores/diagonalizacion" element={<Diagonalizacion />} />
+        <Route path="/parcial3/autovalores/diagonalizacion-ortogonal" element={<DiagonalizacionOrtogonal />} />
+
+        {/* P3 Tema 5: Cónicas y Cuádricas */}
+        <Route path="/parcial3/conicas/parabola-circunferencia" element={<ParabolaCircunferencia />} />
+        <Route path="/parcial3/conicas/elipse-hiperbola" element={<ElipseHiperbola />} />
+        <Route path="/parcial3/conicas/ecuacion-general" element={<EcuacionGeneral />} />
+        <Route path="/parcial3/conicas/rotacion-traslacion" element={<RotacionTraslacion />} />
+        <Route path="/parcial3/conicas/cuadricas" element={<Cuadricas />} />
       </Routes>
     </>
   );

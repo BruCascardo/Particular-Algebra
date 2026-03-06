@@ -13,7 +13,7 @@ interface CoursePageLayoutProps {
   title: string;
   subtitle: string;
   topics: TopicType[];
-  themeDecoration: 'vector' | 'matrix';
+  themeDecoration: 'vector' | 'matrix' | 'transform';
   headerDecorationText?: string;
 }
 

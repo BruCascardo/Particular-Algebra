@@ -70,6 +70,39 @@ const topicLabels: Record<string, string> = {
   '/parcial2/determinantes/preliminares': '6.3 Matriz Adjunta y Regular',
   '/parcial2/determinantes/inversa': '6.4 Teoremas de Inversa',
   '/parcial2/determinantes/relacion-traza-determinante': '6.5 Relac. Traza/Determinante',
+
+  // Parcial 3
+  '/parcial3': 'Temario Parcial 3',
+  '/parcial3/espacios/definicion': '1.1 Def. y Propiedades',
+  '/parcial3/espacios/subespacios': '1.2 Subespacios Vectoriales',
+  '/parcial3/espacios/combinacion-lineal': '1.3 Combinación y Span',
+  '/parcial3/espacios/dependencia-lineal': '1.4 Dependencia Lineal',
+  '/parcial3/espacios/base-dimension': '1.5 Base y Dimensión',
+  '/parcial3/espacios/cambio-base': '1.6 Cambio de Base',
+
+  '/parcial3/producto-interior/definicion': '2.1 Definición y Axiomas (PI)',
+  '/parcial3/producto-interior/norma-distancia-angulo': '2.2 Norma, Distancia y Ángulo',
+  '/parcial3/producto-interior/ortogonalidad': '2.3 Ortogonalidad',
+  '/parcial3/producto-interior/gram-schmidt': '2.4 Gram-Schmidt',
+  '/parcial3/producto-interior/proyeccion': '2.5 Proyección Ortogonal',
+
+  '/parcial3/transformaciones/definicion': '3.1 Definición de TL',
+  '/parcial3/transformaciones/nucleo-imagen': '3.2 Núcleo e Imagen',
+  '/parcial3/transformaciones/teorema-dimensiones': '3.3 Teorema Dimensiones',
+  '/parcial3/transformaciones/matriz-asociada': '3.4 Matriz Asociada',
+  '/parcial3/transformaciones/composicion-inversa': '3.5 Composición e Inversa',
+
+  '/parcial3/autovalores/definicion': '4.1 Autovalores y Autovectores',
+  '/parcial3/autovalores/polinomio-caracteristico': '4.2 Pol. Característico',
+  '/parcial3/autovalores/multiplicidad': '4.3 Multiplicidad y Esp. Propios',
+  '/parcial3/autovalores/diagonalizacion': '4.4 Diagonalización',
+  '/parcial3/autovalores/diagonalizacion-ortogonal': '4.5 Diag. Ortogonal',
+
+  '/parcial3/conicas/parabola-circunferencia': '5.1 Parábola/Circunferencia',
+  '/parcial3/conicas/elipse-hiperbola': '5.2 Elipse/Hipérbola',
+  '/parcial3/conicas/ecuacion-general': '5.3 Ecuación General',
+  '/parcial3/conicas/rotacion-traslacion': '5.4 Rotación y Traslación',
+  '/parcial3/conicas/cuadricas': '5.5 Superficies Cuádricas',
 };
 
 const TopicNavigation: React.FC<TopicNavigationProps> = ({

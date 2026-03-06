@@ -6137,5 +6137,3540 @@
     "parcial": 2,
     "temaTitle": "6. Determinantes",
     "topicTitle": "Relación entre Traza y Determinante"
+  },
+  {
+    "text": "Definición Clave",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "Un espacio vectorial V sobre un cuerpo K (como los números reales \\mathbb{R o complejos \\mathbb{C ) es un conjunto no vacío acompañado de dos operaciones:",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "Suma de vectores: \\vec{u",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "Producto por un escalar: \\alpha \\cdot \\vec{u",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "Para que V sea considerado un espacio vectorial, debe cumplir las siguientes propiedades (axiomas) para todo \\vec{u y escalares \\alpha, \\beta \\in K :",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "Propiedades de la Suma (Suma Vectorial)",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "Cerradura: \\vec{u",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "Conmutatividad: \\vec{u",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "Asociatividad: (\\vec{u",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "Elemento Neutro (Vector Nulo): Existe \\vec{0 tal que \\vec{u",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "Elemento Opuesto: Para cada \\vec{u , existe -\\vec{u tal que \\vec{u",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "Propiedades del Producto por un Escalar",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "Cerradura: \\alpha \\cdot \\vec{u",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "Distributividad respecto a la suma de vectores: \\alpha \\cdot (\\vec{u",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "Distributividad respecto a la suma de escalares: (\\alpha + \\beta) \\cdot \\vec{u",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "Asociatividad mixta: \\alpha \\cdot (\\beta \\cdot \\vec{u",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "Elemento Identidad: 1 \\cdot \\vec{u (donde 1 es el elemento neutro del cuerpo)",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "Ejemplos Clásicos:",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "\\mathbb{R : El espacio de tuplas (x_1, x_2, \\dots, x_n) de números reales.",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "\\mathbb{P : El espacio de polinomios de grado menor o igual a n .",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "M_{m \\times n : El espacio de matrices de tamaño m \\times n .",
+    "path": "/parcial3/espacios/definicion",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Definición y propiedades fundamentales"
+  },
+  {
+    "text": "Un subespacio vectorial S es un subconjunto no vacío de un espacio vectorial V (es decir, S \\subseteq V ) que, bajo las mismas operaciones de suma y producto por escalar definidas en V , resulta ser también un espacio vectorial.",
+    "path": "/parcial3/espacios/subespacios",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Subespacios vectoriales (condiciones)"
+  },
+  {
+    "text": "Para demostrar que un conjunto S es un subespacio vectorial de V , no hace falta verificar los 10 axiomas.",
+    "path": "/parcial3/espacios/subespacios",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Subespacios vectoriales (condiciones)"
+  },
+  {
+    "text": "Es suficiente comprobar las siguientes tres condiciones:",
+    "path": "/parcial3/espacios/subespacios",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Subespacios vectoriales (condiciones)"
+  },
+  {
+    "text": "El vector nulo pertenece a S : \\vec{0 .",
+    "path": "/parcial3/espacios/subespacios",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Subespacios vectoriales (condiciones)"
+  },
+  {
+    "text": "(Esto también garantiza que S no es vacío).",
+    "path": "/parcial3/espacios/subespacios",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Subespacios vectoriales (condiciones)"
+  },
+  {
+    "text": "Cerradura de la suma: Si tomamos dos vectores cualesquiera \\vec{u , entonces su suma debe estar en S \\vec{u .",
+    "path": "/parcial3/espacios/subespacios",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Subespacios vectoriales (condiciones)"
+  },
+  {
+    "text": "Cerradura del producto por escalar: Si tomamos cualquier vector \\vec{u y cualquier escalar \\alpha \\in K , entonces su producto debe estar en S \\alpha \\cdot \\vec{u .",
+    "path": "/parcial3/espacios/subespacios",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Subespacios vectoriales (condiciones)"
+  },
+  {
+    "text": "Nota importante: Una forma rápida de descartar que algo sea un subespacio es verificar si el vector cero está en el conjunto.",
+    "path": "/parcial3/espacios/subespacios",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Subespacios vectoriales (condiciones)"
+  },
+  {
+    "text": "Si \\vec{0 , entonces S no puede ser un subespacio.",
+    "path": "/parcial3/espacios/subespacios",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Subespacios vectoriales (condiciones)"
+  },
+  {
+    "text": "Consideremos el espacio vectorial V = \\mathbb{R y el subconjunto S = \\{(x, y) \\in \\mathbb{R .",
+    "path": "/parcial3/espacios/subespacios",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Subespacios vectoriales (condiciones)"
+  },
+  {
+    "text": "¿Es S un subespacio?",
+    "path": "/parcial3/espacios/subespacios",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Subespacios vectoriales (condiciones)"
+  },
+  {
+    "text": "El vector nulo (0,0) está en S porque 0 = 2(0) .",
+    "path": "/parcial3/espacios/subespacios",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Subespacios vectoriales (condiciones)"
+  },
+  {
+    "text": "Si \\vec{u y \\vec{v están en S , su suma \\vec{u también cumple la condición, así que pertenece a S .",
+    "path": "/parcial3/espacios/subespacios",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Subespacios vectoriales (condiciones)"
+  },
+  {
+    "text": "Si tomamos \\alpha \\in \\mathbb{R y \\vec{u , \\alpha\\vec{u .",
+    "path": "/parcial3/espacios/subespacios",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Subespacios vectoriales (condiciones)"
+  },
+  {
+    "text": "Vemos que la segunda coordenada es el doble de la primera, por lo que pertenece a S .",
+    "path": "/parcial3/espacios/subespacios",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Subespacios vectoriales (condiciones)"
+  },
+  {
+    "text": "Por lo tanto, S es un subespacio vectorial.",
+    "path": "/parcial3/espacios/subespacios",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Subespacios vectoriales (condiciones)"
+  },
+  {
+    "text": "Cualquier espacio vectorial V tiene al menos dos subespacios garantizados:",
+    "path": "/parcial3/espacios/subespacios",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Subespacios vectoriales (condiciones)"
+  },
+  {
+    "text": "El subespacio formado solo por el elemento neutro: \\{\\vec{0 .",
+    "path": "/parcial3/espacios/subespacios",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Subespacios vectoriales (condiciones)"
+  },
+  {
+    "text": "El propio espacio vectorial: V .",
+    "path": "/parcial3/espacios/subespacios",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Subespacios vectoriales (condiciones)"
+  },
+  {
+    "text": "Combinación Lineal",
+    "path": "/parcial3/espacios/combinacion-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Combinación lineal y Espacio generado"
+  },
+  {
+    "text": "Dado un conjunto de vectores A = \\{\\vec{v en un espacio vectorial V , decimos que un vector \\vec{u es una combinación lineal de los vectores de A si existen escalares \\alpha_1, \\alpha_2, \\dots, \\alpha_k \\in K tales que:",
+    "path": "/parcial3/espacios/combinacion-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Combinación lineal y Espacio generado"
+  },
+  {
+    "text": "En otras palabras, podemos \"fabricar\" o \"alcanzar\" a \\vec{u estirando, contrayendo o invirtiendo los vectores de A y luego sumándolos.",
+    "path": "/parcial3/espacios/combinacion-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Combinación lineal y Espacio generado"
+  },
+  {
+    "text": "El conjunto de todas las posibles combinaciones lineales de un conjunto de vectores A = \\{\\vec{v se llama espacio generado por A , y se denota como Gen(A) o gen\\{\\vec{v .",
+    "path": "/parcial3/espacios/combinacion-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Combinación lineal y Espacio generado"
+  },
+  {
+    "text": "Teorema: El espacio generado por cualquier subconjunto de vectores es siempre un subespacio vectorial de V .",
+    "path": "/parcial3/espacios/combinacion-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Combinación lineal y Espacio generado"
+  },
+  {
+    "text": "Incluso si el conjunto A no es un subespacio en sí mismo, al tomar todas sus combinaciones lineales, \"rellenamos\" los huecos y creamos un subespacio (la adición del vector nulo está garantizada haciendo todos los escalares cero).",
+    "path": "/parcial3/espacios/combinacion-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Combinación lineal y Espacio generado"
+  },
+  {
+    "text": "Ejemplo: En \\mathbb{R , si tomamos un solo vector no nulo \\vec{v , el espacio que genera gen\\{\\vec{v es una recta que pasa por el origen.",
+    "path": "/parcial3/espacios/combinacion-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Combinación lineal y Espacio generado"
+  },
+  {
+    "text": "Si tomamos dos vectores no nulos \\vec{v y \\vec{v que no apuntan en la misma dirección (no son colineales), su espacio generado gen\\{\\vec{v es un plano que pasa por el origen.",
+    "path": "/parcial3/espacios/combinacion-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Combinación lineal y Espacio generado"
+  },
+  {
+    "text": "Si el espacio generado por un conjunto de vectores A coincide con todo el espacio vectorial V (es decir, Gen(A) = V ), se dice que A es un sistema de generadores de V .",
+    "path": "/parcial3/espacios/combinacion-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Combinación lineal y Espacio generado"
+  },
+  {
+    "text": "El problema de la redundancia",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "Al tener un conjunto de vectores, a veces uno de ellos no aporta \"nueva información\" o una \"nueva dirección\", porque ya puede ser construido combinando los otros vectores.",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "Esta es la diferencia fundamental entre la dependencia y la independencia lineal.",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "Un conjunto de vectores A = \\{\\vec{v es linealmente dependiente si la ecuación dada por la combinación lineal igualada al vector nulo:",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "Tiene soluciones no triviales.",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "Es decir, existe alguna solución donde al menos uno de los escalares \\alpha_i sea distinto de cero.",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "Consecuencia geométrica: Al menos uno de los vectores puede escribirse como una combinación lineal de los demás.",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "Ese vector es \"redundante\" en la generación de espacios.",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "Cualquier conjunto que contenga el vector nulo es automáticamente L.D.",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "Un conjunto de vectores A = \\{\\vec{v es linealmente independiente si la única forma de obtener el vector nulo mediante una combinación lineal es usando escalares que sean todos cero (la solución trivial):",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "Consecuencia geométrica: Ningún vector del conjunto puede escribirse como combinación lineal de los otros.",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "Todo vector apunta en una \"nueva dirección\" independiente de los demás.",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "Para dos vectores, son L.I.",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "si y solo si no son múltiplos escalares el uno del otro (no son paralelos).",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "Comprobación mediante Matrices:",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "Para determinar si un conjunto de vectores en \\mathbb{R es L.I.",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "o L.D., podemos colocar los vectores como columnas (o filas) de una matriz y:",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "Resolver el sistema homogéneo igualado a 0.",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "O usar el determinante: Si la matriz es cuadrada, los vectores son L.I.",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "si y solo si el determinante es distinto de cero ( \\det(A) \\neq 0 ).",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "Si el determinante es cero, son L.D.",
+    "path": "/parcial3/espacios/dependencia-lineal",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Dependencia e Independencia Lineal"
+  },
+  {
+    "text": "Base de un Espacio Vectorial",
+    "path": "/parcial3/espacios/base-dimension",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Bases y Dimensión"
+  },
+  {
+    "text": "Un conjunto de vectores B = \\{\\vec{v es una base de un espacio vectorial V si cumple que forma el \"esqueleto\" perfecto del espacio.",
+    "path": "/parcial3/espacios/base-dimension",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Bases y Dimensión"
+  },
+  {
+    "text": "Formalmente, debe cumplir dos condiciones rigurosas al mismo tiempo:",
+    "path": "/parcial3/espacios/base-dimension",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Bases y Dimensión"
+  },
+  {
+    "text": "Genera a V : Todo vector de V puede obtenerse como combinación lineal de los vectores de B (es decir, Gen(B) = V ).",
+    "path": "/parcial3/espacios/base-dimension",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Bases y Dimensión"
+  },
+  {
+    "text": "Es Linealmente Independiente (L.I.): No hay vectores redundantes en el conjunto B .",
+    "path": "/parcial3/espacios/base-dimension",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Bases y Dimensión"
+  },
+  {
+    "text": "La importancia de una base radica en que todo vector del espacio se puede escribir de forma única como combinación lineal de los vectores de la base.",
+    "path": "/parcial3/espacios/base-dimension",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Bases y Dimensión"
+  },
+  {
+    "text": "Existen bases estándar, llamadas bases canónicas, que son las más naturales y sencillas para trabajar en los espacios típicos.",
+    "path": "/parcial3/espacios/base-dimension",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Bases y Dimensión"
+  },
+  {
+    "text": "En \\mathbb{R : B_c = \\{(1,0), (0,1)\\ (A menudo llamados \\mathbf{i )",
+    "path": "/parcial3/espacios/base-dimension",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Bases y Dimensión"
+  },
+  {
+    "text": "En \\mathbb{R : B_c = \\{(1,0,0), (0,1,0), (0,0,1)\\ (A menudo llamados \\mathbf{i )",
+    "path": "/parcial3/espacios/base-dimension",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Bases y Dimensión"
+  },
+  {
+    "text": "Polinomios \\mathbb{P : B_c = \\{1, x, x^2\\",
+    "path": "/parcial3/espacios/base-dimension",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Bases y Dimensión"
+  },
+  {
+    "text": "La dimensión de un espacio vectorial V , denotada como \\dim(V) , es el número de vectores que tiene cualquiera de sus bases.",
+    "path": "/parcial3/espacios/base-dimension",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Bases y Dimensión"
+  },
+  {
+    "text": "Un teorema clave afirma que, aunque un espacio vectorial tiene infinitas bases distintas, todas tienen exactamente el mismo número de vectores.",
+    "path": "/parcial3/espacios/base-dimension",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Bases y Dimensión"
+  },
+  {
+    "text": "Ese número es la dimensión.",
+    "path": "/parcial3/espacios/base-dimension",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Bases y Dimensión"
+  },
+  {
+    "text": "Si la base tiene n elementos, la dimensión es n .",
+    "path": "/parcial3/espacios/base-dimension",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Bases y Dimensión"
+  },
+  {
+    "text": "Ejemplo: \\dim(\\mathbb{R , y \\dim(\\mathbb{P .",
+    "path": "/parcial3/espacios/base-dimension",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Bases y Dimensión"
+  },
+  {
+    "text": "Si sabemos que un espacio V tiene dimensión n :",
+    "path": "/parcial3/espacios/base-dimension",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Bases y Dimensión"
+  },
+  {
+    "text": "Cualquier conjunto con más de n vectores es obligatoriamente Linealmente Dependiente (L.D.).",
+    "path": "/parcial3/espacios/base-dimension",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Bases y Dimensión"
+  },
+  {
+    "text": "Cualquier conjunto con menos de n vectores no puede generar todo V .",
+    "path": "/parcial3/espacios/base-dimension",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Bases y Dimensión"
+  },
+  {
+    "text": "Un conjunto con exactamente n vectores es base si es independiente o si genera V (al cumplirse una, se cumple automáticamente la otra).",
+    "path": "/parcial3/espacios/base-dimension",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Bases y Dimensión"
+  },
+  {
+    "text": "Sistemas de Coordenadas",
+    "path": "/parcial3/espacios/cambio-base",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Coordenadas y Matriz de Cambio de Base"
+  },
+  {
+    "text": "Un mismo vector se puede representar de diferentes formas dependiendo del sistema de referencia o la \"base\" que utilicemos.",
+    "path": "/parcial3/espacios/cambio-base",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Coordenadas y Matriz de Cambio de Base"
+  },
+  {
+    "text": "Al escribir un vector \\vec{v en una base ordenada específica B = \\{\\vec{u , los escalares que multiplican a los vectores de la base son únicos.",
+    "path": "/parcial3/espacios/cambio-base",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Coordenadas y Matriz de Cambio de Base"
+  },
+  {
+    "text": "El vector de coordenadas de \\vec{v respecto a esa base, denotado como [\\vec{v , se forma colocando esos escalares en forma de columna:",
+    "path": "/parcial3/espacios/cambio-base",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Coordenadas y Matriz de Cambio de Base"
+  },
+  {
+    "text": "Si disponemos de dos bases diferentes B (\"base vieja\") y B (\"base nueva\") en el mismo espacio vectorial, podemos convertir las coordenadas de un vector en B directamente a coordenadas en B mediante una multiplicación matricial:",
+    "path": "/parcial3/espacios/cambio-base",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Coordenadas y Matriz de Cambio de Base"
+  },
+  {
+    "text": "P_{B \\to B es la llamada \"Matriz de Cambio de Base\" de B a B .",
+    "path": "/parcial3/espacios/cambio-base",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Coordenadas y Matriz de Cambio de Base"
+  },
+  {
+    "text": "Sus columnas son los vectores de la base vieja B escritos usando las coordenadas de la base nueva B .",
+    "path": "/parcial3/espacios/cambio-base",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Coordenadas y Matriz de Cambio de Base"
+  },
+  {
+    "text": "En símbolos: P = \\Big( [\\vec{u .",
+    "path": "/parcial3/espacios/cambio-base",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Coordenadas y Matriz de Cambio de Base"
+  },
+  {
+    "text": "Propiedades asombrosas:",
+    "path": "/parcial3/espacios/cambio-base",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Coordenadas y Matriz de Cambio de Base"
+  },
+  {
+    "text": "La matriz de cambio de base es siempre inversible porque las bases están formadas por vectores L.I.",
+    "path": "/parcial3/espacios/cambio-base",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Coordenadas y Matriz de Cambio de Base"
+  },
+  {
+    "text": "Para volver de la base nueva a la vieja, usamos la inversa: P_{B .",
+    "path": "/parcial3/espacios/cambio-base",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Coordenadas y Matriz de Cambio de Base"
+  },
+  {
+    "text": "El caso más frecuente es cambiar desde cualquier base arbitraria B a la base canónica E .",
+    "path": "/parcial3/espacios/cambio-base",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Coordenadas y Matriz de Cambio de Base"
+  },
+  {
+    "text": "Si los vectores de B ya están dados en sus componentes estándar, entonces la matriz P_{B \\to E se forma simplemente poniendo los vectores de B como columnas de la matriz.",
+    "path": "/parcial3/espacios/cambio-base",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Coordenadas y Matriz de Cambio de Base"
+  },
+  {
+    "text": "Por lo tanto:",
+    "path": "/parcial3/espacios/cambio-base",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Coordenadas y Matriz de Cambio de Base"
+  },
+  {
+    "text": "Y para encontrar [\\vec{v a partir del vector estándar, despejamos usando la inversa:",
+    "path": "/parcial3/espacios/cambio-base",
+    "parcial": 3,
+    "temaTitle": "1. Espacios Vectoriales",
+    "topicTitle": "Coordenadas y Matriz de Cambio de Base"
+  },
+  {
+    "text": "Definición Clave",
+    "path": "/parcial3/producto-interior/definicion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Producto interior (Definición y axiomas)"
+  },
+  {
+    "text": "Un Producto Interior (o producto escalar generalizado) sobre un espacio vectorial V es una función que toma dos vectores \\vec{u y les asocia un número real (o escalar).",
+    "path": "/parcial3/producto-interior/definicion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Producto interior (Definición y axiomas)"
+  },
+  {
+    "text": "Se denota comúnmente mediante corchetes angulares \\langle \\vec{u .",
+    "path": "/parcial3/producto-interior/definicion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Producto interior (Definición y axiomas)"
+  },
+  {
+    "text": "Su función principal es permitirnos hablar de longitud, distancia y ángulos en espacios que de otro modo serían puramente abstractos (como polinomios o matrices).",
+    "path": "/parcial3/producto-interior/definicion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Producto interior (Definición y axiomas)"
+  },
+  {
+    "text": "Para que una función se considere un producto interior válido en un espacio vectorial real, debe satisfacer los siguientes cuatro axiomas para todos los vectores \\vec{u y todo escalar c \\in \\mathbb{R :",
+    "path": "/parcial3/producto-interior/definicion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Producto interior (Definición y axiomas)"
+  },
+  {
+    "text": "Simetría (o Conmutatividad): \\langle \\vec{u",
+    "path": "/parcial3/producto-interior/definicion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Producto interior (Definición y axiomas)"
+  },
+  {
+    "text": "Aditividad en el primer argumento: \\langle \\vec{u",
+    "path": "/parcial3/producto-interior/definicion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Producto interior (Definición y axiomas)"
+  },
+  {
+    "text": "Homogeneidad (Sacar escalares): \\langle c\\vec{u",
+    "path": "/parcial3/producto-interior/definicion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Producto interior (Definición y axiomas)"
+  },
+  {
+    "text": "Positividad definida: \\langle \\vec{u y \\langle \\vec{u si y solo si \\vec{u .",
+    "path": "/parcial3/producto-interior/definicion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Producto interior (Definición y axiomas)"
+  },
+  {
+    "text": "Ejemplos Comunes de Productos Interiores:",
+    "path": "/parcial3/producto-interior/definicion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Producto interior (Definición y axiomas)"
+  },
+  {
+    "text": "En \\mathbb{R : El clásico producto escalar (punto).",
+    "path": "/parcial3/producto-interior/definicion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Producto interior (Definición y axiomas)"
+  },
+  {
+    "text": "Si \\vec{u y \\vec{v , entonces \\langle \\vec{u .",
+    "path": "/parcial3/producto-interior/definicion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Producto interior (Definición y axiomas)"
+  },
+  {
+    "text": "Espacio de Funciones Continuas C[a,b] : Usando la integral definida: \\langle f, g \\rangle = \\int_a^b f(x)g(x) \\,dx",
+    "path": "/parcial3/producto-interior/definicion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Producto interior (Definición y axiomas)"
+  },
+  {
+    "text": "Espacio de Matrices M_{n \\times n : Mediante la traza: \\langle A, B \\rangle = \\text{tr",
+    "path": "/parcial3/producto-interior/definicion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Producto interior (Definición y axiomas)"
+  },
+  {
+    "text": "Cualquier espacio vectorial que tenga equipado un producto interior se denomina espacio con producto interior (o espacio prehilbertiano).",
+    "path": "/parcial3/producto-interior/definicion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Producto interior (Definición y axiomas)"
+  },
+  {
+    "text": "Tener un producto interior nos permite transferir los conceptos geométricos que conocemos del plano y el espacio tridimensional a cualquier espacio abstracto.",
+    "path": "/parcial3/producto-interior/norma-distancia-angulo",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Norma, distancia y ángulo entre vectores"
+  },
+  {
+    "text": "Norma de un vector (Longitud)",
+    "path": "/parcial3/producto-interior/norma-distancia-angulo",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Norma, distancia y ángulo entre vectores"
+  },
+  {
+    "text": "La norma (o longitud/magnitud) de un vector \\vec{v , denotada como \\|\\vec{v , es simplemente la raíz cuadrada del producto interior del vector consigo mismo:",
+    "path": "/parcial3/producto-interior/norma-distancia-angulo",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Norma, distancia y ángulo entre vectores"
+  },
+  {
+    "text": "Un vector que tiene norma igual a 1 (es decir, \\|\\vec{v ) se llama vector unitario o versor.",
+    "path": "/parcial3/producto-interior/norma-distancia-angulo",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Norma, distancia y ángulo entre vectores"
+  },
+  {
+    "text": "Podemos \"normalizar\" cualquier vector no nulo multiplicándolo por el inverso de su norma: \\vec{u .",
+    "path": "/parcial3/producto-interior/norma-distancia-angulo",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Norma, distancia y ángulo entre vectores"
+  },
+  {
+    "text": "La distancia entre dos vectores \\vec{u y \\vec{v , denotada como d(\\vec{u , se define como la \"longitud del vector diferencia\":",
+    "path": "/parcial3/producto-interior/norma-distancia-angulo",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Norma, distancia y ángulo entre vectores"
+  },
+  {
+    "text": "Uno de los teoremas más importantes del álgebra lineal establece que el valor absoluto del producto interior entre dos vectores jamás puede exceder el producto de sus normas:",
+    "path": "/parcial3/producto-interior/norma-distancia-angulo",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Norma, distancia y ángulo entre vectores"
+  },
+  {
+    "text": "La igualdad se cumple si y solo si los vectores son linealmente dependientes (uno es múltiplo del otro).",
+    "path": "/parcial3/producto-interior/norma-distancia-angulo",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Norma, distancia y ángulo entre vectores"
+  },
+  {
+    "text": "Gracias a la Desigualdad de Cauchy-Schwarz, garantizamos que el cociente \\frac{\\langle \\vec{u siempre cae dentro del intervalo [-1, 1] .",
+    "path": "/parcial3/producto-interior/norma-distancia-angulo",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Norma, distancia y ángulo entre vectores"
+  },
+  {
+    "text": "Esto permite definir el ángulo \\theta entre dos vectores no nulos a través de la función arcocoseno:",
+    "path": "/parcial3/producto-interior/norma-distancia-angulo",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Norma, distancia y ángulo entre vectores"
+  },
+  {
+    "text": "Reflexión Geométrica:",
+    "path": "/parcial3/producto-interior/norma-distancia-angulo",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Norma, distancia y ángulo entre vectores"
+  },
+  {
+    "text": "Si \\cos(\\theta) = 1 , los vectores apuntan en la misma dirección ( \\theta = 0 ).",
+    "path": "/parcial3/producto-interior/norma-distancia-angulo",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Norma, distancia y ángulo entre vectores"
+  },
+  {
+    "text": "Si \\cos(\\theta) = -1 , los apuntan en direcciones opuestas ( \\theta = \\pi ).",
+    "path": "/parcial3/producto-interior/norma-distancia-angulo",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Norma, distancia y ángulo entre vectores"
+  },
+  {
+    "text": "Si el producto interior es 0 , entonces \\cos(\\theta) = 0 , lo que significa que el ángulo es de 90^\\circ (o \\pi/2 radianes).",
+    "path": "/parcial3/producto-interior/norma-distancia-angulo",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Norma, distancia y ángulo entre vectores"
+  },
+  {
+    "text": "A esto le llamaremos ortogonalidad.",
+    "path": "/parcial3/producto-interior/norma-distancia-angulo",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Norma, distancia y ángulo entre vectores"
+  },
+  {
+    "text": "Ortogonalidad",
+    "path": "/parcial3/producto-interior/ortogonalidad",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Ortogonalidad y conjuntos ortonormales"
+  },
+  {
+    "text": "Dos vectores \\vec{u y \\vec{v en un espacio con producto interior son ortogonales (perpendiculares a nivel generalizado) si y solo si su producto interior es cero:",
+    "path": "/parcial3/producto-interior/ortogonalidad",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Ortogonalidad y conjuntos ortonormales"
+  },
+  {
+    "text": "El vector nulo \\vec{0 es ortogonal a absolutamente todos los vectores del espacio.",
+    "path": "/parcial3/producto-interior/ortogonalidad",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Ortogonalidad y conjuntos ortonormales"
+  },
+  {
+    "text": "Al igual que en la geometría clásica, si dos vectores \\vec{u y \\vec{v son ortogonales, cumplen el Teorema de Pitágoras respecto a la norma inducida:",
+    "path": "/parcial3/producto-interior/ortogonalidad",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Ortogonalidad y conjuntos ortonormales"
+  },
+  {
+    "text": "Decimos que un conjunto de vectores S = \\{\\vec{v es ortogonal si todo par de vectores distintos dentro del conjunto son ortogonales entre sí.",
+    "path": "/parcial3/producto-interior/ortogonalidad",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Ortogonalidad y conjuntos ortonormales"
+  },
+  {
+    "text": "Formalmente, si \\langle \\vec{v para todo i \\neq j .",
+    "path": "/parcial3/producto-interior/ortogonalidad",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Ortogonalidad y conjuntos ortonormales"
+  },
+  {
+    "text": "Un conjunto es ortonormal si además de ser ortogonal, todos sus vectores tienen norma 1 (son unitarios).",
+    "path": "/parcial3/producto-interior/ortogonalidad",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Ortogonalidad y conjuntos ortonormales"
+  },
+  {
+    "text": "Una forma compacta de decirlo es usando la Delta de Kronecker ( \\delta_{ij ): \\langle \\vec{v si i = j , y 0 si i \\neq j .",
+    "path": "/parcial3/producto-interior/ortogonalidad",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Ortogonalidad y conjuntos ortonormales"
+  },
+  {
+    "text": "Teorema de Independencia:",
+    "path": "/parcial3/producto-interior/ortogonalidad",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Ortogonalidad y conjuntos ortonormales"
+  },
+  {
+    "text": "Todo conjunto ortogonal de vectores no nulos es Linealmente Independiente de forma automática.",
+    "path": "/parcial3/producto-interior/ortogonalidad",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Ortogonalidad y conjuntos ortonormales"
+  },
+  {
+    "text": "¡Nunca es L.D.",
+    "path": "/parcial3/producto-interior/ortogonalidad",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Ortogonalidad y conjuntos ortonormales"
+  },
+  {
+    "text": "porque no pueden estar contenidos en los espacios generados por los otros!",
+    "path": "/parcial3/producto-interior/ortogonalidad",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Ortogonalidad y conjuntos ortonormales"
+  },
+  {
+    "text": "Una base ortonormal as el \"santo grial\" de los espacios vectoriales.",
+    "path": "/parcial3/producto-interior/ortogonalidad",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Ortogonalidad y conjuntos ortonormales"
+  },
+  {
+    "text": "La base canónica de \\mathbb{R (compuesta por vectores con ceros y un uno) es el ejemplo perfecto de una base ortonormal respecto al producto punto escalar estándar.",
+    "path": "/parcial3/producto-interior/ortogonalidad",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Ortogonalidad y conjuntos ortonormales"
+  },
+  {
+    "text": "Las coordenadas de Fourier",
+    "path": "/parcial3/producto-interior/ortogonalidad",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Ortogonalidad y conjuntos ortonormales"
+  },
+  {
+    "text": "Si tienes una base ortogonal B = \\{\\vec{v , expresar un vector \\vec{u como combinación lineal de esta base es extremadamente fácil.",
+    "path": "/parcial3/producto-interior/ortogonalidad",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Ortogonalidad y conjuntos ortonormales"
+  },
+  {
+    "text": "No necesitas resolver sistemas de ecuaciones matriciales.",
+    "path": "/parcial3/producto-interior/ortogonalidad",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Ortogonalidad y conjuntos ortonormales"
+  },
+  {
+    "text": "Cada coordenada se calcula de forma directa:",
+    "path": "/parcial3/producto-interior/ortogonalidad",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Ortogonalidad y conjuntos ortonormales"
+  },
+  {
+    "text": "Si la base además es ortonormal, los denominadores valen 1 y desaparecen:",
+    "path": "/parcial3/producto-interior/ortogonalidad",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Ortogonalidad y conjuntos ortonormales"
+  },
+  {
+    "text": "El problema",
+    "path": "/parcial3/producto-interior/gram-schmidt",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Proceso de Gram-Schmidt"
+  },
+  {
+    "text": "Trabajar con bases ortogonales (y mejor aún, ortonormales) simplifica enormemente los cálculos algebraicos, porque elimina las interferencias entre direcciones cruzadas.",
+    "path": "/parcial3/producto-interior/gram-schmidt",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Proceso de Gram-Schmidt"
+  },
+  {
+    "text": "Sin embargo, a menudo la naturaleza o el problema nos entrega una base ordinaria y \"desordenada\" que no es ortogonal.",
+    "path": "/parcial3/producto-interior/gram-schmidt",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Proceso de Gram-Schmidt"
+  },
+  {
+    "text": "El Proceso de Gram-Schmidt es el algoritmo que toma cualquier base ordinaria de un espacio vectorial con producto interior y, paso a paso, la transforma en una base ortogonal que genera exactamente el mismo espacio.",
+    "path": "/parcial3/producto-interior/gram-schmidt",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Proceso de Gram-Schmidt"
+  },
+  {
+    "text": "Supongamos que tenemos una base L.I.",
+    "path": "/parcial3/producto-interior/gram-schmidt",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Proceso de Gram-Schmidt"
+  },
+  {
+    "text": "inicial B = \\{\\vec{v .",
+    "path": "/parcial3/producto-interior/gram-schmidt",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Proceso de Gram-Schmidt"
+  },
+  {
+    "text": "Queremos construir una nueva base ortogonal B .",
+    "path": "/parcial3/producto-interior/gram-schmidt",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Proceso de Gram-Schmidt"
+  },
+  {
+    "text": "Paso 1: El primer vector lo tomamos directamente igual al primero de nuestra base inicial.",
+    "path": "/parcial3/producto-interior/gram-schmidt",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Proceso de Gram-Schmidt"
+  },
+  {
+    "text": "No necesitas ajustarlo con respecto a nada más.",
+    "path": "/parcial3/producto-interior/gram-schmidt",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Proceso de Gram-Schmidt"
+  },
+  {
+    "text": "Paso 2: Para el segundo vector, tomamos \\vec{v y le restamos su componente (proyección ortogonal) que va en la dirección del primer vector \\vec{u (el que acabamos de aceptar).",
+    "path": "/parcial3/producto-interior/gram-schmidt",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Proceso de Gram-Schmidt"
+  },
+  {
+    "text": "Así, nos aseguramos de que el remanente sea 100% independiente y perpendicular a \\vec{u .",
+    "path": "/parcial3/producto-interior/gram-schmidt",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Proceso de Gram-Schmidt"
+  },
+  {
+    "text": "Paso 3: Para el tercer vector, tomamos \\vec{v y le rebanamos toda porción de los vectores ya aceptados.",
+    "path": "/parcial3/producto-interior/gram-schmidt",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Proceso de Gram-Schmidt"
+  },
+  {
+    "text": "Paso 4 en adelante: Patrón general recursivo, continuamos el proceso restando de \\vec{v sus proyecciones sobre todos los anteriores.",
+    "path": "/parcial3/producto-interior/gram-schmidt",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Proceso de Gram-Schmidt"
+  },
+  {
+    "text": "Cuidado con los errores:",
+    "path": "/parcial3/producto-interior/gram-schmidt",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Proceso de Gram-Schmidt"
+  },
+  {
+    "text": "Notese que el algoritmo proyecta el nuevo vector \\vec{v contra los vectores propios de la nueva base ( \\vec{u ), y NO contra los anteriores de la vieja base.",
+    "path": "/parcial3/producto-interior/gram-schmidt",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Proceso de Gram-Schmidt"
+  },
+  {
+    "text": "Este es el error más común en parciales.",
+    "path": "/parcial3/producto-interior/gram-schmidt",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Proceso de Gram-Schmidt"
+  },
+  {
+    "text": "El proceso produce una base ortogonal B cuyos vectores generamente no tienen norma 1.",
+    "path": "/parcial3/producto-interior/gram-schmidt",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Proceso de Gram-Schmidt"
+  },
+  {
+    "text": "Para llevarla a la forma óptima final, basta con normalizar cada vector calculando su producto por el inverso de su propia norma:",
+    "path": "/parcial3/producto-interior/gram-schmidt",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Proceso de Gram-Schmidt"
+  },
+  {
+    "text": "Ese conjunto de \\{\\vec{w es nuestra gloriosa base ortonormal.",
+    "path": "/parcial3/producto-interior/gram-schmidt",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Proceso de Gram-Schmidt"
+  },
+  {
+    "text": "Suma Directa en Subespacios",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "Imaginemos el espacio 3D donde W es el plano XY .",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "Resulta intuitivo que cualquier vector que esté en el eje Z será ortogonal a todos y cada uno de los vectores dentro de W .",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "Dado un subespacio vectorial W de V , el complemento ortogonal, denotado como W^\\perp (\"W ortogonal\" o \"W perpendicular\"), es el conjunto de todos los vectores \\vec{u que son ortogonales a todos y cada uno de los vectores del subespacio W .",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "Teorema: W^\\perp no es un simple conjunto, es en sí mismo un subespacio vectorial genuino de V .",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "La intersección entre W y W^\\perp contiene única y exclusivamente al vector nulo: W \\cap W^\\perp = \\{\\vec{0 .",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "Sus dimensiones son complementarias: \\dim(V) = \\dim(W) + \\dim(W^\\perp) .",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "Si conocemos una base de W , basta con exigir que un vector genérico sea ortogonal (producto escalar = 0) a cada uno de los vectores que constituyen esa base de W .",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "Resolviendo ese sistema de ecuaciones homogéneas, obtendremos el conjunto de todo el complemento W^\\perp .",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "Gracias al Teorema de la Proyección, cualquier espacio V (de dimensión finita) se puede descomponer perfectamente.",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "Esto significa que cualquier vector \\vec{v se puede escribir de forma única como la suma de dos partes:",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "Donde \\vec{w (es la proyección) y \\vec{w (es el residuo ortogonal u \"ortogonal respecto a W\").",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "Cálculo de la Proyección sobre W",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "Para encontrar esa precisa \\vec{w que llamamos la proyección ortogonal de \\vec{v sobre W ( P_W(\\vec{v ):",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "Primero debes hallar una base ortogonal \\{\\vec{u para W (podrías usar Gram-Schmidt si solo tienes base ordinaria de W).",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "Luego, calculas la suma de las proyecciones elementales sobre cada vector de esa base:",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "La parte residual (que apunta a W^\\perp ) se la obtiene simplemente restando: \\vec{w .",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "Distancia mínima",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "La proyección ortogonal tiene una propiedad asombrosa.",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "De todos los infinitos puntos y vectores que habitan en el subespacio W , la proyección ortogonal P_W(\\vec{v es el punto más cercano (\"mejor aproximación\") bién la menor distancia geométrica real hasta el vector \\vec{v .",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "La distancia se mide por la norma del residuo: d_{min .",
+    "path": "/parcial3/producto-interior/proyeccion",
+    "parcial": 3,
+    "temaTitle": "2. Espacios con Producto Interior",
+    "topicTitle": "Complemento Ortogonal y Proyección Ortogonal"
+  },
+  {
+    "text": "¿Qué es una Transformación Lineal?",
+    "path": "/parcial3/transformaciones/definicion",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Definición de Transformación Lineal (TL)"
+  },
+  {
+    "text": "Una transformación lineal (o aplicación lineal) es una función especial T: V \\to W que va desde un espacio vectorial V (Dominio) hacia otro espacio vectorial W (Codominio).",
+    "path": "/parcial3/transformaciones/definicion",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Definición de Transformación Lineal (TL)"
+  },
+  {
+    "text": "Su característica principal es que no deforma la estructura algebraica de los espacios: \"preserva\" las sumas y las multiplicaciones por escalares.",
+    "path": "/parcial3/transformaciones/definicion",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Definición de Transformación Lineal (TL)"
+  },
+  {
+    "text": "Para que una función T sea considerada una Transformación Lineal, debe cumplir estrictamente dos condiciones para todo vector \\vec{u y todo escalar \\alpha \\in \\mathbb{R (o el cuerpo K ):",
+    "path": "/parcial3/transformaciones/definicion",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Definición de Transformación Lineal (TL)"
+  },
+  {
+    "text": "Aditividad (Preserva la suma): La transformación de una suma de vectores debe ser igual a la suma de las transformaciones individuales.",
+    "path": "/parcial3/transformaciones/definicion",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Definición de Transformación Lineal (TL)"
+  },
+  {
+    "text": "Homogeneidad (Preserva el producto por escalar): Al escalar un vector antes de transformarlo, el resultado debe ser exactamente igual a escalar el vector ya transformado.",
+    "path": "/parcial3/transformaciones/definicion",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Definición de Transformación Lineal (TL)"
+  },
+  {
+    "text": "T(\\alpha \\cdot \\vec{u",
+    "path": "/parcial3/transformaciones/definicion",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Definición de Transformación Lineal (TL)"
+  },
+  {
+    "text": "Truco rápido de comprobación (Teorema):",
+    "path": "/parcial3/transformaciones/definicion",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Definición de Transformación Lineal (TL)"
+  },
+  {
+    "text": "Toda transformación lineal debe obligatoriamente enviar el vector nulo del dominio al vector nulo del codominio: T(\\vec{0 .",
+    "path": "/parcial3/transformaciones/definicion",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Definición de Transformación Lineal (TL)"
+  },
+  {
+    "text": "Si ves que T(\\vec{0 (por ejemplo, si la función le suma una constante a las coordenadas como T(x) = x + 3 ), entonces la función NO es una transformación lineal.",
+    "path": "/parcial3/transformaciones/definicion",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Definición de Transformación Lineal (TL)"
+  },
+  {
+    "text": "Es una transformación afín.",
+    "path": "/parcial3/transformaciones/definicion",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Definición de Transformación Lineal (TL)"
+  },
+  {
+    "text": "Rotaciones alrededor del origen: En \\mathbb{R , si rotas todo el plano un ángulo fijo con respecto al origen, la red de vectores enteros gira sin romperse (es lineal).",
+    "path": "/parcial3/transformaciones/definicion",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Definición de Transformación Lineal (TL)"
+  },
+  {
+    "text": "Reflexiones (Espejo) por un eje que pasa por el origen: Cambiar el signo de una coordenada: T(x,y) = (x, -y) .",
+    "path": "/parcial3/transformaciones/definicion",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Definición de Transformación Lineal (TL)"
+  },
+  {
+    "text": "Multiplicación por una Matriz: Si fijamos cualquier matriz constante A de m \\times n , la función que agarra un vector columna \\vec{x y le multiplica la matriz T(\\vec{x es siempre lineal.",
+    "path": "/parcial3/transformaciones/definicion",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Definición de Transformación Lineal (TL)"
+  },
+  {
+    "text": "La Derivada: En el espacio de los polinomios \\mathbb{P , el operador de la derivada D(P) = P es una transformación lineal debido a las propiedades clásicas de la suma y extracción de constantes.",
+    "path": "/parcial3/transformaciones/definicion",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Definición de Transformación Lineal (TL)"
+  },
+  {
+    "text": "Toda Transformación Lineal T: V \\to W tiene asociados dos subespacios fundamentales, uno de ellos \"vive\" en el dominio ( V ) y el otro en el codominio ( W ).",
+    "path": "/parcial3/transformaciones/nucleo-imagen",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Núcleo e Imagen de una TL"
+  },
+  {
+    "text": "Estos subespacios deciden qué tan \"buena\" (o inyectiva/sobreyectiva) es la transformación.",
+    "path": "/parcial3/transformaciones/nucleo-imagen",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Núcleo e Imagen de una TL"
+  },
+  {
+    "text": "El Núcleo (Kernel o Nulidad)",
+    "path": "/parcial3/transformaciones/nucleo-imagen",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Núcleo e Imagen de una TL"
+  },
+  {
+    "text": "El Núcleo de T , denotado como \\ker(T) o N(T) , es el conjunto de todos los vectores del dominio V que \"se apagan\" o se destruyen al aplicarles la transformación.",
+    "path": "/parcial3/transformaciones/nucleo-imagen",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Núcleo e Imagen de una TL"
+  },
+  {
+    "text": "Es decir, aquellos que mueren aplastados contra el vector nulo del codominio.",
+    "path": "/parcial3/transformaciones/nucleo-imagen",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Núcleo e Imagen de una TL"
+  },
+  {
+    "text": "El núcleo es siempre un subespacio vectorial de V .",
+    "path": "/parcial3/transformaciones/nucleo-imagen",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Núcleo e Imagen de una TL"
+  },
+  {
+    "text": "Para calcular el núcleo de una T.L., debes escribir la ecuación que define a T , igualarla al vector \\vec{0 y resolver el sistema de ecuaciones homogéneo resultante.",
+    "path": "/parcial3/transformaciones/nucleo-imagen",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Núcleo e Imagen de una TL"
+  },
+  {
+    "text": "Transformaciones Inyectivas (Monorfismos):",
+    "path": "/parcial3/transformaciones/nucleo-imagen",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Núcleo e Imagen de una TL"
+  },
+  {
+    "text": "Una transformación lineal es 1 a 1 (inyectiva) si y solo si su núcleo contiene única y exclusivamente al vector nulo.",
+    "path": "/parcial3/transformaciones/nucleo-imagen",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Núcleo e Imagen de una TL"
+  },
+  {
+    "text": "La Imagen (Recorrido)",
+    "path": "/parcial3/transformaciones/nucleo-imagen",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Núcleo e Imagen de una TL"
+  },
+  {
+    "text": "La Imagen de T , denotada como \\text{Im , es el conjunto de todos los vectores del codominio W que realmente logran ser \"alcanzados\" o \"generados\" por algún vector del dominio a través de la transformación.",
+    "path": "/parcial3/transformaciones/nucleo-imagen",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Núcleo e Imagen de una TL"
+  },
+  {
+    "text": "La imagen es siempre un subespacio vectorial de W .",
+    "path": "/parcial3/transformaciones/nucleo-imagen",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Núcleo e Imagen de una TL"
+  },
+  {
+    "text": "¿Cómo hallar la imagen?",
+    "path": "/parcial3/transformaciones/nucleo-imagen",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Núcleo e Imagen de una TL"
+  },
+  {
+    "text": "La forma más directa es recordar que la imagen está generada por las transformaciones de los vectores de cualquier base del dominio.",
+    "path": "/parcial3/transformaciones/nucleo-imagen",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Núcleo e Imagen de una TL"
+  },
+  {
+    "text": "Si B = \\{\\vec{v es base de V , entonces \\text{Im .",
+    "path": "/parcial3/transformaciones/nucleo-imagen",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Núcleo e Imagen de una TL"
+  },
+  {
+    "text": "Luego, eliminas los linealmente dependientes para encontrar una base.",
+    "path": "/parcial3/transformaciones/nucleo-imagen",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Núcleo e Imagen de una TL"
+  },
+  {
+    "text": "Transformaciones Sobreyectivas (Epimorfismos):",
+    "path": "/parcial3/transformaciones/nucleo-imagen",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Núcleo e Imagen de una TL"
+  },
+  {
+    "text": "Una transformación lineal cubre todo el espacio final (es sobreyectiva) si y solo si su imagen es exactamente igual a todo el codominio.",
+    "path": "/parcial3/transformaciones/nucleo-imagen",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Núcleo e Imagen de una TL"
+  },
+  {
+    "text": "La Ecuación Fundamental",
+    "path": "/parcial3/transformaciones/teorema-dimensiones",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Teorema de las Dimensiones"
+  },
+  {
+    "text": "El Teorema de las Dimensiones (también conocido a veces como Teorema Rango-Nulidad) establece la asombrosa relación que existe entre el tamaño del dominio de una transformación y los espacios núcleo e imagen.",
+    "path": "/parcial3/transformaciones/teorema-dimensiones",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Teorema de las Dimensiones"
+  },
+  {
+    "text": "Para cualquier Transformación Lineal T: V \\to W , donde V tiene dimensión finita, se cumple rigurosamente que:",
+    "path": "/parcial3/transformaciones/teorema-dimensiones",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Teorema de las Dimensiones"
+  },
+  {
+    "text": "Esta ecuación describe una \"ley de conservación de información\": la dimensión total de todo nuestro espacio de salida (el Dominio V ) se divide o se descompone en dos destinos...",
+    "path": "/parcial3/transformaciones/teorema-dimensiones",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Teorema de las Dimensiones"
+  },
+  {
+    "text": "Lo que se pierde: La dimensión del núcleo ( \\dim(\\ker(T)) , llamada la nulidad) que representa cuántas dimensiones se comprimen hasta colapsar en el vector nulo.",
+    "path": "/parcial3/transformaciones/teorema-dimensiones",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Teorema de las Dimensiones"
+  },
+  {
+    "text": "Lo que se visualiza: La dimensión de la imagen ( \\dim(\\text{Im , llamada el rango) que representa el número de dimensiones que logran \"sobrevivir\" y manifestarse dentro del codominio W .",
+    "path": "/parcial3/transformaciones/teorema-dimensiones",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Teorema de las Dimensiones"
+  },
+  {
+    "text": "Este teorema es una de las herramientas más potentes para responder rápidamente preguntas sin necesidad de calcular bases:",
+    "path": "/parcial3/transformaciones/teorema-dimensiones",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Teorema de las Dimensiones"
+  },
+  {
+    "text": "Casos imposibles:",
+    "path": "/parcial3/transformaciones/teorema-dimensiones",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Teorema de las Dimensiones"
+  },
+  {
+    "text": "Si tienes una transformación lineal de \\mathbb{R .",
+    "path": "/parcial3/transformaciones/teorema-dimensiones",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Teorema de las Dimensiones"
+  },
+  {
+    "text": "Usando el teorema: 5 = \\dim(\\ker) + \\dim(\\text{Im .",
+    "path": "/parcial3/transformaciones/teorema-dimensiones",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Teorema de las Dimensiones"
+  },
+  {
+    "text": "Sabemos que la imagen vive en \\mathbb{R , así que a lo sumo \\dim(\\text{Im .",
+    "path": "/parcial3/transformaciones/teorema-dimensiones",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Teorema de las Dimensiones"
+  },
+  {
+    "text": "Esto obliga a que la dimensión del núcleo sea, como mínimo de 2 .",
+    "path": "/parcial3/transformaciones/teorema-dimensiones",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Teorema de las Dimensiones"
+  },
+  {
+    "text": "Conclusión instantánea: ¡Es imposible que esta transformación sea inyectiva!",
+    "path": "/parcial3/transformaciones/teorema-dimensiones",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Teorema de las Dimensiones"
+  },
+  {
+    "text": "El núcleo obligatoriamente será mayor a 0 .",
+    "path": "/parcial3/transformaciones/teorema-dimensiones",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Teorema de las Dimensiones"
+  },
+  {
+    "text": "Matriz Cuadrada / Isomorfismo:",
+    "path": "/parcial3/transformaciones/teorema-dimensiones",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Teorema de las Dimensiones"
+  },
+  {
+    "text": "Si las dimensiones del dominio y codominio son iguales ( \\dim(V) = \\dim(W) ), entonces el teorema dicta que:",
+    "path": "/parcial3/transformaciones/teorema-dimensiones",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Teorema de las Dimensiones"
+  },
+  {
+    "text": "Si el núcleo tiene dimensión 0 (es inyectiva) \\implies la imagen forzosamente tiene dimensión máxima (es sobreyectiva).",
+    "path": "/parcial3/transformaciones/teorema-dimensiones",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Teorema de las Dimensiones"
+  },
+  {
+    "text": "Si la imagen \"llena\" todo el codominio (es sobreyectiva) \\implies el núcleo debe ser 0 obligatoriamente (es inyectiva).",
+    "path": "/parcial3/transformaciones/teorema-dimensiones",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Teorema de las Dimensiones"
+  },
+  {
+    "text": "Por lo tanto, en espacios de la misma dimensión (como de \\mathbb{R ), ser inyectivo implica ser sobreyectivo ¡y viceversa!",
+    "path": "/parcial3/transformaciones/teorema-dimensiones",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Teorema de las Dimensiones"
+  },
+  {
+    "text": "Una función con ambas propiedades se llama Isomorfismo (Biyectiva).",
+    "path": "/parcial3/transformaciones/teorema-dimensiones",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Teorema de las Dimensiones"
+  },
+  {
+    "text": "La Equivalencia Fundamental",
+    "path": "/parcial3/transformaciones/matriz-asociada",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Matriz asociada a una TL"
+  },
+  {
+    "text": "Uno de los resultados más potentes del Álgebra Lineal es que toda transformación lineal T: V \\to W entre espacios de dimensión finita puede ser representada por una simple multiplicación de matrices.",
+    "path": "/parcial3/transformaciones/matriz-asociada",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Matriz asociada a una TL"
+  },
+  {
+    "text": "Esto significa que podemos estudiar, calcular y operar funciones complejas (como derivadas polínomicas o proyecciones 3D) usando el álgebra de matrices matricial común.",
+    "path": "/parcial3/transformaciones/matriz-asociada",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Matriz asociada a una TL"
+  },
+  {
+    "text": "Para encontrar la matriz asociada a una transformación T , necesitamos elegir dos bases fijas:",
+    "path": "/parcial3/transformaciones/matriz-asociada",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Matriz asociada a una TL"
+  },
+  {
+    "text": "Una base B_1 = \\{\\vec{v para el espacio de salida (Dominio V ).",
+    "path": "/parcial3/transformaciones/matriz-asociada",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Matriz asociada a una TL"
+  },
+  {
+    "text": "Una base B_2 = \\{\\vec{w para el espacio de llegada (Codominio W ).",
+    "path": "/parcial3/transformaciones/matriz-asociada",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Matriz asociada a una TL"
+  },
+  {
+    "text": "La matriz A (denotada frecuentemente como M_T o [T]_{B_1 ) se construye aplicando T a cada vector de la base de salida B_1 , y luego escribiendo ese resultado en las coordenadas de la base de llegada B_2 .",
+    "path": "/parcial3/transformaciones/matriz-asociada",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Matriz asociada a una TL"
+  },
+  {
+    "text": "Estos vectores de coordenadas se colocan formando las columnas de la matriz.",
+    "path": "/parcial3/transformaciones/matriz-asociada",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Matriz asociada a una TL"
+  },
+  {
+    "text": "El resultado es una matriz de tamaño m \\times n (filas = dim codominio, columnas = dim dominio).",
+    "path": "/parcial3/transformaciones/matriz-asociada",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Matriz asociada a una TL"
+  },
+  {
+    "text": "Una vez obtenida esta matriz, evaluar T en cualquier vector \\vec{x es equivalente a multiplicarlo por la matriz A :",
+    "path": "/parcial3/transformaciones/matriz-asociada",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Matriz asociada a una TL"
+  },
+  {
+    "text": "El caso clásico de \\mathbb{R : Matrices Estándar",
+    "path": "/parcial3/transformaciones/matriz-asociada",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Matriz asociada a una TL"
+  },
+  {
+    "text": "Si trabajamos de \\mathbb{R usando las bases canónicas estándar ( E_1 y E_2 ), el proceso se simplifica enormemente.",
+    "path": "/parcial3/transformaciones/matriz-asociada",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Matriz asociada a una TL"
+  },
+  {
+    "text": "La matriz estándar se forma evaluando T en los vectores \\vec{e , \\vec{e , etc., y poniendo los vectores resultantes directamente como columnas:",
+    "path": "/parcial3/transformaciones/matriz-asociada",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Matriz asociada a una TL"
+  },
+  {
+    "text": "Esta matriz se aplica directamente al vector entrada original: T(\\vec{x .",
+    "path": "/parcial3/transformaciones/matriz-asociada",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Matriz asociada a una TL"
+  },
+  {
+    "text": "Composición de Transformaciones Lineales",
+    "path": "/parcial3/transformaciones/composicion-inversa",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Composición e Inversa de Transformaciones"
+  },
+  {
+    "text": "Si tenemos dos transformaciones lineales secuenciales, primero T_1: U \\to V y luego T_2: V \\to W , su composición T_2 \\circ T_1 se define matemáticamente como aplicar primero T_1 y al resultado aplicarle T_2 :",
+    "path": "/parcial3/transformaciones/composicion-inversa",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Composición e Inversa de Transformaciones"
+  },
+  {
+    "text": "El resultado es una nueva transformación lineal que va directamente de U \\to W .",
+    "path": "/parcial3/transformaciones/composicion-inversa",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Composición e Inversa de Transformaciones"
+  },
+  {
+    "text": "¡La composición de transformaciones lineales es siempre otra transformación lineal!",
+    "path": "/parcial3/transformaciones/composicion-inversa",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Composición e Inversa de Transformaciones"
+  },
+  {
+    "text": "Aquí es donde brilla el Álgebra Lineal: la operación funcional de \"composición\" se traduce algebraicamente en una simple multiplicación de matrices.",
+    "path": "/parcial3/transformaciones/composicion-inversa",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Composición e Inversa de Transformaciones"
+  },
+  {
+    "text": "Si la transformación T_1 tiene asociada la matriz A , y T_2 tiene asociada la matriz B , entonces la transformación compuesta T_2 \\circ T_1 tendrá como matriz asociada exactactamente el producto matricial en ese mismo orden:",
+    "path": "/parcial3/transformaciones/composicion-inversa",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Composición e Inversa de Transformaciones"
+  },
+  {
+    "text": "Suma de Funciones",
+    "path": "/parcial3/transformaciones/composicion-inversa",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Composición e Inversa de Transformaciones"
+  },
+  {
+    "text": "La misma relación biyectiva existe para la suma y escalar.",
+    "path": "/parcial3/transformaciones/composicion-inversa",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Composición e Inversa de Transformaciones"
+  },
+  {
+    "text": "Si sumas dos funciones (T_1 + T_2)(\\vec{v , la matriz resultante es sencillamente A+B .",
+    "path": "/parcial3/transformaciones/composicion-inversa",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Composición e Inversa de Transformaciones"
+  },
+  {
+    "text": "Y si multiplicas c \\cdot T_1(\\vec{v es cA .",
+    "path": "/parcial3/transformaciones/composicion-inversa",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Composición e Inversa de Transformaciones"
+  },
+  {
+    "text": "En el fondo, el espacio de Transformaciones Lineales y el espacio de Matrices se comportan exactamente igual (son Isomorfos).",
+    "path": "/parcial3/transformaciones/composicion-inversa",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Composición e Inversa de Transformaciones"
+  },
+  {
+    "text": "Una transformación lineal T: V \\to W tiene inversa (es invertible) si y solo si es biyectiva (es decir, Isomorfismo: inyectiva y sobreyectiva a la vez).",
+    "path": "/parcial3/transformaciones/composicion-inversa",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Composición e Inversa de Transformaciones"
+  },
+  {
+    "text": "Esto solo es posible si los espacios tienen la misma dimensión \\dim(V) = \\dim(W) .",
+    "path": "/parcial3/transformaciones/composicion-inversa",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Composición e Inversa de Transformaciones"
+  },
+  {
+    "text": "La transformación inversa, denotada como T^{-1 , deshace el efecto de T , retornando al vector original:",
+    "path": "/parcial3/transformaciones/composicion-inversa",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Composición e Inversa de Transformaciones"
+  },
+  {
+    "text": "Cálculo de la Transformación Inversa:",
+    "path": "/parcial3/transformaciones/composicion-inversa",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Composición e Inversa de Transformaciones"
+  },
+  {
+    "text": "Nuevamente, no necesitas trabajar analíticamente con funciones complicadas.",
+    "path": "/parcial3/transformaciones/composicion-inversa",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Composición e Inversa de Transformaciones"
+  },
+  {
+    "text": "La matriz asociada a la transformación inversa T^{-1 es, sorpresivamente, la inversa de la matriz que representa a T :",
+    "path": "/parcial3/transformaciones/composicion-inversa",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Composición e Inversa de Transformaciones"
+  },
+  {
+    "text": "Esto es un alivio total a la hora de resolver ejercicios en parciales.",
+    "path": "/parcial3/transformaciones/composicion-inversa",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Composición e Inversa de Transformaciones"
+  },
+  {
+    "text": "Para hallar como actúa la función inversa solo invierte la matriz (usando el método de Gauss-Jordan u operando determinantes por cofactores).",
+    "path": "/parcial3/transformaciones/composicion-inversa",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Composición e Inversa de Transformaciones"
+  },
+  {
+    "text": "¡La matriz resultante describirá por completo a T^{-1 !",
+    "path": "/parcial3/transformaciones/composicion-inversa",
+    "parcial": 3,
+    "temaTitle": "3. Transformaciones Lineales",
+    "topicTitle": "Composición e Inversa de Transformaciones"
+  },
+  {
+    "text": "La Idea Central",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "Al multiplicar un vector por una matriz cuadrada A , el resultado suele ser un vector nuevo que cambió tanto de tamaño como de dirección (rotó).",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "Sin embargo, para casi toda matriz existen ciertas \"direcciones especiales\" o privilegiadas.",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "Si tomas un vector que apunte en esas direcciones y lo multiplicas por la matriz, el vector no cambia de dirección, solo se estira, se contrae, o se invierte.",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "Sea A una matriz cuadrada de n \\times n .",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "Un número escalar \\lambda se llama autovalor (o valor propio / eigenvalor) de A si existe un vector no nulo \\vec{v tal que:",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "Autovector: El vector \\vec{v que satisface la ecuación.",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "(Nota: El vector nulo nunca se considera autovector, porque A\\vec{0 es trivialmente cierto para cualquier \\lambda ).",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "Autovalor ( \\lambda ): Es el factor de estiramiento.",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "Si \\lambda = 2 , el vector duplica su tamaño.",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "Si \\lambda = -1 , el vector no cambia de largo pero invierte su sentido 180°.",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "Si \\lambda = 0 , el vector colapsa al vector nulo (se pierde en el kernel).",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "El Efecto Geométrico:",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "Imagina una imagen plasmada en una hoja de goma elástica.",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "Si agarras la hoja y la estiras horizontalmente, todos los vectores dibujados en la hoja se inclinarán hacia el eje horizontal...",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "excepto aquellos vectores que ya estaban acostados sobre el eje horizontal o sobre el eje vertical.",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "Esas líneas simplemente se hicieron más largas o se quedaron igual.",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "Esos ejes son las direcciones dadas por los autovectores.",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "Si reescribimos la ecuación A\\vec{v pasando todo al mismo lado y factorizando \\vec{v , necesitamos usar la matriz identidad I para que la resta tenga sentido matricial:",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "Esta es un sistema homogéneo.",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "Como dijimos que \\vec{v no puede ser el vector nulo, ¡estamos buscando que este sistema tenga soluciones infinitas / no triviales!",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "Para que un sistema homogéneo cuadrado tenga soluciones no triviales, la matriz del sistema no debe ser invertible, lo que significa que su determinante debe ser cero.",
+    "path": "/parcial3/autovalores/definicion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Autovalores y Autovectores (Valores y Vectores Propios)"
+  },
+  {
+    "text": "La Ecuación Característica",
+    "path": "/parcial3/autovalores/polinomio-caracteristico",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Polinomio Característico"
+  },
+  {
+    "text": "Vimos que para que exista un autovector no nulo, la ecuación homogénea (A - \\lambda I)\\vec{v debe tener soluciones más allá de la trivial.",
+    "path": "/parcial3/autovalores/polinomio-caracteristico",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Polinomio Característico"
+  },
+  {
+    "text": "La única forma de que eso ocurra es que la matriz (A - \\lambda I) tenga determinante cero.",
+    "path": "/parcial3/autovalores/polinomio-caracteristico",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Polinomio Característico"
+  },
+  {
+    "text": "Esto da lugar a la Ecuación Característica:",
+    "path": "/parcial3/autovalores/polinomio-caracteristico",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Polinomio Característico"
+  },
+  {
+    "text": "Si tomas una matriz A de n \\times n , le restas la variable \\lambda (lambda) a los elementos de su diagonal principal, y calculas el determinante de esa nueva matriz usando las reglas de Sarrus o cofactores, obtendrás una función que depende puramente de \\lambda .",
+    "path": "/parcial3/autovalores/polinomio-caracteristico",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Polinomio Característico"
+  },
+  {
+    "text": "Esta función resultará ser obligatoriamente un polinomio de grado n .",
+    "path": "/parcial3/autovalores/polinomio-caracteristico",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Polinomio Característico"
+  },
+  {
+    "text": "A este polinomio P_A(\\lambda) se lo llama Polinomio Característico de la matriz A .",
+    "path": "/parcial3/autovalores/polinomio-caracteristico",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Polinomio Característico"
+  },
+  {
+    "text": "Los autovalores de la matriz A son simple y llanamente las raíces de su polinomio característico (los valores que hacen que P_A(\\lambda) = 0 ).",
+    "path": "/parcial3/autovalores/polinomio-caracteristico",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Polinomio Característico"
+  },
+  {
+    "text": "Como es un polinomio de grado n , por el Teorema Fundamental del Álgebra tendrá exactamente n raíces en el plano complejo, algunas de las cuales pueden ser reales, y algunas pueden estar repetidas.",
+    "path": "/parcial3/autovalores/polinomio-caracteristico",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Polinomio Característico"
+  },
+  {
+    "text": "Propiedades Mágicas de los Coeficientes:",
+    "path": "/parcial3/autovalores/polinomio-caracteristico",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Polinomio Característico"
+  },
+  {
+    "text": "El término independiente del polinomio (el c_0 sin \\lambda ) es exactamente igual al determinante de la matriz original: P_A(0) = \\det(A) .",
+    "path": "/parcial3/autovalores/polinomio-caracteristico",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Polinomio Característico"
+  },
+  {
+    "text": "(¡Por ello, el producto de todos los autovalores da el determinante!)",
+    "path": "/parcial3/autovalores/polinomio-caracteristico",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Polinomio Característico"
+  },
+  {
+    "text": "El coeficiente de \\lambda^{n-1 está directamente atado a la traza de la matriz (la suma de la diagonal).",
+    "path": "/parcial3/autovalores/polinomio-caracteristico",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Polinomio Característico"
+  },
+  {
+    "text": "(¡Por ello, la suma de todos los autovalores da la traza!)",
+    "path": "/parcial3/autovalores/polinomio-caracteristico",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Polinomio Característico"
+  },
+  {
+    "text": "Si tienes una matriz triangular (superior o inferior) o diagonal, el cálculo del determinante de A - \\lambda I es meramente multiplicar los elementos de la diagonal.",
+    "path": "/parcial3/autovalores/polinomio-caracteristico",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Polinomio Característico"
+  },
+  {
+    "text": "Por lo tanto, ¡los autovalores de una matriz triangular son directamente los números que ya están plantados en su diagonal principal!",
+    "path": "/parcial3/autovalores/polinomio-caracteristico",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Polinomio Característico"
+  },
+  {
+    "text": "Espacio Propio o Autoespacio ( E_\\lambda )",
+    "path": "/parcial3/autovalores/multiplicidad",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Espacios Propios y Multiplicidad"
+  },
+  {
+    "text": "Al calcular un autovalor específico \\lambda_1 , no le corresponde un único autovector mágico, ¡le corresponden infinitos!",
+    "path": "/parcial3/autovalores/multiplicidad",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Espacios Propios y Multiplicidad"
+  },
+  {
+    "text": "Cualquier múltiplo de un autovector sigue siendo autovector.",
+    "path": "/parcial3/autovalores/multiplicidad",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Espacios Propios y Multiplicidad"
+  },
+  {
+    "text": "El conjunto completo de todos los autovectores asociados a \\lambda_1 , unidos al vector nulo \\vec{0 , constituye un subespacio vectorial legítimo llamado Autoespacio.",
+    "path": "/parcial3/autovalores/multiplicidad",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Espacios Propios y Multiplicidad"
+  },
+  {
+    "text": "Se obtiene llanamente reemplazando el valor de \\lambda_1 en la matriz y resolviendo el sistema homogéneo para hallar su base.",
+    "path": "/parcial3/autovalores/multiplicidad",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Espacios Propios y Multiplicidad"
+  },
+  {
+    "text": "Un polinomio puede tener raíces repetidas.",
+    "path": "/parcial3/autovalores/multiplicidad",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Espacios Propios y Multiplicidad"
+  },
+  {
+    "text": "Por ejemplo, en (\\lambda - 2)^3 \\cdot (\\lambda + 1) = 0 , la raíz \\lambda=2 aparece tres veces.",
+    "path": "/parcial3/autovalores/multiplicidad",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Espacios Propios y Multiplicidad"
+  },
+  {
+    "text": "La Multiplicidad Algebraica de un autovalor es el número de veces que ese autovalor figura como raíz del polinomio característico.",
+    "path": "/parcial3/autovalores/multiplicidad",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Espacios Propios y Multiplicidad"
+  },
+  {
+    "text": "La Multiplicidad Geométrica de un autovalor cuenta la cantidad \"real\" de direcciones distintas (totalmente independientes) que se asocian a ese autovalor.",
+    "path": "/parcial3/autovalores/multiplicidad",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Espacios Propios y Multiplicidad"
+  },
+  {
+    "text": "Se define analíticamente como la dimensión del espacio propio asociado:",
+    "path": "/parcial3/autovalores/multiplicidad",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Espacios Propios y Multiplicidad"
+  },
+  {
+    "text": "El Teorema Crucial de Relación (Desigualdad fundamental):",
+    "path": "/parcial3/autovalores/multiplicidad",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Espacios Propios y Multiplicidad"
+  },
+  {
+    "text": "La realidad (M.G.) nunca puede superar a las expectativas teóricas (M.A.), pero sí puede quedarse corta.",
+    "path": "/parcial3/autovalores/multiplicidad",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Espacios Propios y Multiplicidad"
+  },
+  {
+    "text": "La regla de oro que siempre se cumple para cualquier autovalor es:",
+    "path": "/parcial3/autovalores/multiplicidad",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Espacios Propios y Multiplicidad"
+  },
+  {
+    "text": "de una raíz es 1 (es raíz simple), ¡la M.G.",
+    "path": "/parcial3/autovalores/multiplicidad",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Espacios Propios y Multiplicidad"
+  },
+  {
+    "text": "está obligada a ser 1!",
+    "path": "/parcial3/autovalores/multiplicidad",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Espacios Propios y Multiplicidad"
+  },
+  {
+    "text": "Pero si la M.A.",
+    "path": "/parcial3/autovalores/multiplicidad",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Espacios Propios y Multiplicidad"
+  },
+  {
+    "text": "es 3, a veces resolveremos el sistema y lograremos encontrar 3 vectores base (M.G.=3), de a veces solo 2 o incluso apenas 1.",
+    "path": "/parcial3/autovalores/multiplicidad",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Espacios Propios y Multiplicidad"
+  },
+  {
+    "text": "Cuando la multiplicidad geométrica se queda \"corta\" respecto a la algebraica (M.G.",
+    "path": "/parcial3/autovalores/multiplicidad",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Espacios Propios y Multiplicidad"
+  },
+  {
+    "text": "&lt; M.A.), se dice que la matriz es defectuosa (le faltan autovectores independientes para modelar el espacio completo).",
+    "path": "/parcial3/autovalores/multiplicidad",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Espacios Propios y Multiplicidad"
+  },
+  {
+    "text": "¿Qué significa diagonalizar?",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "Una matriz cuadrada A de n \\times n es diagonalizable si existe una matriz inversible P (llamada matriz de paso) y una matriz diagonal D tales que:",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "Equivalentemente, multiplicando por la derecha, podríamos escribir D = P^{-1 .",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "Esto implica que la matriz original A es semejante a una matriz diagonal, la cual es drásticamente más fácil de operar (por ejemplo, para elevar a potencias, A^k = P \\cdot D^k \\cdot P^{-1 ).",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "Lamentablemente, no todas las matrices se pueden diagonalizar.",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "El teorema supremo dictamina que una matriz n \\times n es diagonalizable si y solo si posee exactamente n autovectores que sean linealmente independientes (L.I.).",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "Este requisito genera tres grandes \"rutas de decisión\" al analizar una matriz:",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "Si todos los autovalores son distintos: El polinomio característico tiene todas raíces simples.",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "Entoces, sus correspondientes autovectores siempre serán automáticamente independientes.",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "¡La matriz es siempre diagonalizable!",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "Si hay autovalores repetidos, pero cumplen el cupo: Algún autovalor tiene Multiplicidad Algebraica > 1 .",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "Aquí hay que rezar.",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "Se debe calcular la base del autoespacio.",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "Si el número de vectores obtenidos (Multiplicidad Geométrica) resulta ser igual a la multiplicidad algebraica de esa raíz repetida, ¡se juntan n autovectores L.I.",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "y la matriz será diagonalizable!",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "La matriz defectuosa: Algún autovalor repetido entrega una Multiplicidad Geométrica menor a su M.Algebraica.",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "Se pierden dimensiones.",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "No se alcanza el cupo de n autovectores independientes.",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "Esta matriz es NO diagonalizable en ninguna base posible.",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "El Método de Ensamblaje:",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "Si confirmamos que la matriz es diagonalizable porque logramos reunir los n autovectores L.I., el proceso constructivo es extremadamente elegante:",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "La Matriz Diagonal D se construye depositando en su diagonal principal únicamente los autovalores \\lambda_1, \\lambda_2 \\dots encontrados (si alguno está repetido, se escribe esa cantidad de veces).",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "La Matriz de Paso P se construye ordenando como columnas a los autovectores correspondientes a esos autovalores, exactamente en el mismo orden correlativo en que fueron puestos en D .",
+    "path": "/parcial3/autovalores/diagonalizacion",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización de Matrices"
+  },
+  {
+    "text": "La Diagonalización Suprema",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "Vimos que una matriz ordinaria se diagonaliza buscando una matriz de paso P (que agrupa sus autovectores) y hallando su inversa P^{-1 para armar A = PDP^{-1 .",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "Pero si tenemos suerte, podemos construir una matriz de paso tan perfecta (compuesta por autovectores ortogonales y unitarios) que su inversa coincida exactamente con su matriz transpuesta.",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "A este tipo de matrices se les llama Matrices Ortogonales.",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "Si existe semejante matriz P ortogonal que logre que P^T A P = D , decimos que la matriz A es Ortogonalmente Diagonalizable.",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "Este teorema es posiblemente el resultado más hermoso y resolutivo del Álgebra Lineal aplicada:",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "Condición Necesaria y Suficiente: Una matriz cuadrada A de coeficientes reales es ortogonalmente diagonalizable si y solo si es una Matriz Simétrica (es decir, A = A^T ).",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "Si tú te topas con una matriz simétrica en un examen, el Teorema Espectral te garantiza inmediatamente, sin ningún cálculo, todos estos regalos matemáticos:",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "Los Regalos del Teorema Espectral:",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "La matriz siempre tendrá n autovalores puramente reales (su polinomio característico nunca tendrá raíces complejas inalcanzables).",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "Nunca será defectuosa.",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "Para cualquier autovalor repetido, la M.",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "Geométrica acompañará a la M.",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "Algebraica sin chistar.",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "Por tanto, toda matriz simétrica siempre será diagonalizable de forma ordinaria.",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "¡Ortogonalidad Automática!",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "Los autovectores correspondientes a autovalores distintos salen del horno siendo ortogonales entre sí (su forma un ángulo de 90° directamente, sin que tengas que forzarlo).",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "¿Cómo construir la mítica matriz P ortogonal para una matriz simétrica A ?",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "Calcula los autovalores y halla el espacio propio de cada uno.",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "Como dijimos, los vectores de autoespacios diferentes ya son ortogonales mágicamente.",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "¡Pero cuidado!",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "Si un autoespacio tiene dimensión mayor a 1 (proveniente de un autovalor repetido), sus vectores base internos no garantizan ser ortogonales entre sí.",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "Deberás aplicarles Gram-Schmidt para ortogonalizar exclusivamente esa base repetida.",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "Una vez que posees un set de n autovectores en los que absolutamente todos son perpendiculares a todos, procedes a normalizarlos a todos (dividiendo cada uno por su propia norma matemática).",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "Apilas esos versores brillantes como columnas, ¡y acabas de construir a P ortogonal!",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "Por otro lado, D se arma del mismo modo ordinario, situando sus respectivos autovalores paralelos a las columnas en la diagonal.",
+    "path": "/parcial3/autovalores/diagonalizacion-ortogonal",
+    "parcial": 3,
+    "temaTitle": "4. Autovalores y Autovectores",
+    "topicTitle": "Diagonalización Ortogonal (Matrices Simétricas)"
+  },
+  {
+    "text": "¿Qué son las Cónicas?",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "Al cortar un cono doble hueco de infinitud geométrica con un plano, la figura resultante de la intersección se llama sección cónica.",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "Según la inclinación de ese plano de corte respecto al eje del cono, obtenemos las cuatro curvas fundamentales: Circunferencia, Elipse, Parábola e Hipérbola.",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "Geométricamente, es el conjunto de todos los puntos (x,y) del plano que se encuentran a una distancia constante (el radio r ) de un punto fijo llamado centro (h, k) .",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "Importante: En la ecuación general, la identificas de reojo si el coeficiente que acompaña a x^2 es idéntico en signo y valor al coeficiente que acompaña a y^2 .",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "Geométricamente, es el conjunto de puntos que mantienen exactamente la misma distancia hacia un punto fijo (el Foco) y hacia una línea recta fija (la Directriz).",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "Elementos Clave",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "Vértice ( V ): Es el punto de \"giro\" de la parábola, ubicado exactamente en el punto medio entre el foco y la directriz.",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "Coordenadas (h,k) .",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "Parámetro focal ( p ): Es la distancia dirigida que existe desde el vértice hacia el foco.",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "Su signo dicta hacia adónde \"abre\" la campana parabólica.",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "(Ojo: a veces los profesores definen a c u otra letra.",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "La distancia vértice-foco siempre es |p| y la directriz está a la misma distancia pero hacia \"atrás\").",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "Ecuaciones Ordinarias o Canónicas:",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "La ecuación de una parábola se delata fácilmente porque solo una de sus variables está elevada al cuadrado, mientras que la otra variable es lineal (está a la potencia 1).",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "Eje focal vertical (abre arriba / abajo): El lado que está al cuadrado es el de las equis.",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "El parámetro es 4p o 4c .",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "(x - h)^2 = 4p(y - k) Si p > 0 , abre hacia arriba.",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "Si p < 0 , abre hacia abajo.",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "Eje focal horizontal (abre a la derecha / izquierda): La variable al cuadrado es ahora la y .",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "(y - k)^2 = 4p(x - h) Si p > 0 , abre a la derecha.",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "Si p < 0 , abre hacia la izquierda.",
+    "path": "/parcial3/conicas/parabola-circunferencia",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Circunferencia y Parábola"
+  },
+  {
+    "text": "Geométricamente, es el conjunto de puntos cuya suma de distancias a dos puntos fijos (los Focos F_1, F_2 ) es siempre una cantidad constante ( 2a ).",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "El plano de corte del cono está más inclinado que en la circunferencia pero sin tocar la base.",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "Ecuación y Elementos",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "Ecuación ordinaria centrada en (h,k) .",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "Ambos términos x^2 y y^2 son positivos, pero están divididos por denominadores distintos (semiejes).",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "a (Semieje mayor): Siempre es el denominador de mayor magnitud.",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "Dicta el largo máximo de la elipse.",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "Si a^2 está bajo las x , es horizontal.",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "Si está bajo las y , es vertical.",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "b (Semieje menor): El denominador más chico.",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "c (Distancia focal): Distancia del centro a los focos.",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "Satisface la relación pitagórica a^2 = b^2 + c^2 (Cuidado, es distinta a la de hipérbola).",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "Geométricamente, es el conjunto de puntos cuya diferencia (valor absoluto de la resta) de las distancias a dos focos es una constante.",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "Esta curva nace cuando el plano corta el cono doble paralelamente a su eje geométrico vertical: tiene dos \"ramas\" que escapan al infinito persiguiendo sus asíntotas.",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "Ecuación y Elementos",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "La ecuación presenta los dos cuadrados pero obligatoriamente con una resta (un término positivo y el otro negativo).",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "Hipérbola Horizontal: El término positivo le pertenece a x .",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "Hipérbola Vertical: El término positivo le pertenece a y .",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "a : Ahora NO importa quién sea más grande.",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "El parámetro a^2 siempre es el denominador del término que tiene signo POSITIVO.",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "Representa el semieje Real o Transverso (donde están los vértices).",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "b : Es el denominador del término negativo.",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "Representa el semieje Imaginario o Conjugado (solo se usa para graficar las asíntotas).",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "c (Distancia focal): Los focos siempre están más lejos que los vértices.",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "La relación pitagórica cambia: aquí predomina la C.",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "c^2 = a^2 + b^2 .",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "Asíntotas de la Hipérbola Centrada (en el origen 0,0):",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "Sus rectas guía oblicuas responden a combinaciones de los semiejes: Si es horizontal: y = \\pm \\frac{b .",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "Si es vertical: y = \\pm \\frac{a .",
+    "path": "/parcial3/conicas/elipse-hiperbola",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Elipse e Hipérbola"
+  },
+  {
+    "text": "La Forma Pura",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "Cualquier curva cónica (por muy trasladada respecto del origen o rotada respecto a los ejes que esté) puede describirse mediante una ecuación polinómica general de dos variables que tiene término cuadrático, un término cruzado, dos términos lineales y una constante.",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "Analizar esta ecuación es el problema central de este tema.",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "¿Cómo sabemos a simple vista qué figura geométrica esconde semejante mezcla de letras?",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "El tipo de cónica que esconde la ecuación se revela de forma inmediata e infalible prestando atención únicamente a los tres primeros coeficientes cuadráticos: A, B y C .",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "El Discriminante de la ecuación general se define como:",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "Clasificación Inmediata:",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "Si \\Delta Es una curva de tipo elíptico.",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "Podría ser una Elipse, un punto, o un conjunto vacío.",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "(Si descubres que es elíptico, es Circunferencia si y solo si B=0 y además A=C ).",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "Si \\Delta = 0 (Cero): Es una curva de tipo parabólico.",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "Podría ser una Parábola o dos rectas asintóticas.",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "Si \\Delta > 0 (Positivo): Es una curva de tipo hiperbólico.",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "Será una Hipérbola, o bien dos rectas oblicuas que se cortan en un punto.",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "El término Bxy (el término rectangular \"cruzado\") es el causante de todos los males.",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "Su existencia denota que nuestra cónica no está alineada con respecto a los ejes X e Y, sino que ha sido ROTA (inclinada un cierto ángulo \\alpha ).",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "Los términos lineales ( Dx y Ey ) jamás causan rotación, solo empujan (Talasladan) el centro de la cónica a algún punto (h, k) lejos del origen perfecto (0,0) .",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "Si B es cero ( B=0 ): No hay rotación.",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "Podemos saltar directo a \"Completar Cuadrados\" con x y con y para deducir de inmediato el centro (h,k) y llevarlo a la ecuación canónica ordinaria.",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "Si B no es cero ( B \\neq 0 ): Completar cuadrados no servirá de nada.",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "La única forma de eliminar ese estorbo algebraico será descubriendo su ángulo de inclinación \\alpha y realizando una rotación formal de ejes, lo que nos adentrará en el asombroso terreno de los autovalores y autovectores.",
+    "path": "/parcial3/conicas/ecuacion-general",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Ecuación General de 2do Grado"
+  },
+  {
+    "text": "El problema de la curvatura rota",
+    "path": "/parcial3/conicas/rotacion-traslacion",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Rotación y Traslación de Ejes"
+  },
+  {
+    "text": "Vimos que una cónica con ecuación general contiene un despreciable término Bxy que indica que su gráfica está torcida.",
+    "path": "/parcial3/conicas/rotacion-traslacion",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Rotación y Traslación de Ejes"
+  },
+  {
+    "text": "El Teorema de los Ejes Principales jura solemnemente que, con una simple rotación inteligente del plano, podemos obligar a esos ejes \"chuecos\" a volver a alinearse y hacer desaparecer el término cruzado, devolviéndonos una ecuación fácil de graficar.",
+    "path": "/parcial3/conicas/rotacion-traslacion",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Rotación y Traslación de Ejes"
+  },
+  {
+    "text": "La clave magna de la Geometría Analítica moderna es incrustar los términos cuadráticos de la ecuación (la matriz causante de la rotación) en una matriz real estrictamente simétrica.",
+    "path": "/parcial3/conicas/rotacion-traslacion",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Rotación y Traslación de Ejes"
+  },
+  {
+    "text": "La ecuación Ax^2 + Bxy + Cy^2 se puede escribir siempre como el producto matricial:",
+    "path": "/parcial3/conicas/rotacion-traslacion",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Rotación y Traslación de Ejes"
+  },
+  {
+    "text": "Esa matriz central de coeficientes 2 \\times 2 (llamamémosla Q ) es simétrica por definición.",
+    "path": "/parcial3/conicas/rotacion-traslacion",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Rotación y Traslación de Ejes"
+  },
+  {
+    "text": "Acudimos a nuestro querido Teorema Espectral.",
+    "path": "/parcial3/conicas/rotacion-traslacion",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Rotación y Traslación de Ejes"
+  },
+  {
+    "text": "Si la matriz Q es simétrica, nos garantiza poder descubrir una matriz de rotación ortogonal P formada por sus autovectores normalizados, de modo que nos conduzca al paraíso de una matriz diagonal impecable D .",
+    "path": "/parcial3/conicas/rotacion-traslacion",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Rotación y Traslación de Ejes"
+  },
+  {
+    "text": "El algoritmo de purificación es:",
+    "path": "/parcial3/conicas/rotacion-traslacion",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Rotación y Traslación de Ejes"
+  },
+  {
+    "text": "Paso 1: Calcular el polinomio característico de Q usando su determinante.",
+    "path": "/parcial3/conicas/rotacion-traslacion",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Rotación y Traslación de Ejes"
+  },
+  {
+    "text": "Paso 2: Encontrar sus dos raíces (sus autovalores \\lambda_1 y \\lambda_2 ).",
+    "path": "/parcial3/conicas/rotacion-traslacion",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Rotación y Traslación de Ejes"
+  },
+  {
+    "text": "Con solo estos dos números, la nueva ecuación rotada carecerá de Bxy .",
+    "path": "/parcial3/conicas/rotacion-traslacion",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Rotación y Traslación de Ejes"
+  },
+  {
+    "text": "Los coeficientes A y C de los nuevos ejes x e y serán exactamente los propios autovalores:",
+    "path": "/parcial3/conicas/rotacion-traslacion",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Rotación y Traslación de Ejes"
+  },
+  {
+    "text": "Cuidado con los términos lineales:",
+    "path": "/parcial3/conicas/rotacion-traslacion",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Rotación y Traslación de Ejes"
+  },
+  {
+    "text": "Si la cónica original tenía términos en solitario Dx + Ey , rotar los ejes ( P ) también afectará a sus coeficientes.",
+    "path": "/parcial3/conicas/rotacion-traslacion",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Rotación y Traslación de Ejes"
+  },
+  {
+    "text": "Deberás multiplicar el vector transpuesto de esos términos genéricos por la matriz ortogonal construída P para revelar exactamente qué números irán dentro de D y E .",
+    "path": "/parcial3/conicas/rotacion-traslacion",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Rotación y Traslación de Ejes"
+  },
+  {
+    "text": "Una vez ejecutada la diagonalización (o si no era requerida de antemano por tener B=0 ), solo nos quedamos con una curva derecha pero que sigue fuera de su centro original (una \"traslación\").",
+    "path": "/parcial3/conicas/rotacion-traslacion",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Rotación y Traslación de Ejes"
+  },
+  {
+    "text": "El último remate estético se realiza completando el trinomio cuadrado perfecto independientemente para las x y para las y .",
+    "path": "/parcial3/conicas/rotacion-traslacion",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Rotación y Traslación de Ejes"
+  },
+  {
+    "text": "Este sencillo procedimiento algebraico nos agrupará esas variables intrusas en potencias binómicas (x y (y , y en el acto el punto de \"origen\" geométrico puro quedará desenmascarado en el centro formal (h, k) .",
+    "path": "/parcial3/conicas/rotacion-traslacion",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Rotación y Traslación de Ejes"
+  },
+  {
+    "text": "Tras esta simple re-escritura final, habrás llegado a la ansiada y predecible Ecuación Canónica.",
+    "path": "/parcial3/conicas/rotacion-traslacion",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Rotación y Traslación de Ejes"
+  },
+  {
+    "text": "Un paso más: El espacio 3D",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "Al agregar un eje tridimensional z a la ecuación simétrica de una cónica común, las curvas se inflan en deslumbrantes superficies cuádricas.",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "Son las esferas, los conos y todas las vasijas e hiperboloides arquitectónicos del mundo real.",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "Su ecuación general consta de seis términos de potencias (tres cuadráticas y tres cruzadas), y tres traslacionales:",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "A pesar de esta monstruosidad, el estudio está limitado únicamente a sus formas canónicas ordenadas (obviando en cálculo manual la asquerosa rotación espacial 3 \\times 3 ).",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "Esto significa identificar rápidamente el sólido con base exclusiva en los signos y los exponentes de las ecuaciones perfectas dadas (semejantes y concéntricas en 0,0,0 o en su mero centro geométrico h,k,j ).",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "Elipsoide (La pelota de Rugby)",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "Las tres variables están al cuadrado.",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "Las tres tienen signos positivos y se igualan a un 1 constante.",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "Si casualmente los tres denominadores miden igual a un número r^2 ...",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "¡Es una Esfera perfecta centrada en el origen!",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "Cono Elíptico (El embudo gemelo)",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "Las tres variables están al cuadrado.",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "Una de ellas tiene signo negativo y se igualan estrictamente a un 0 .",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "(Ninguna constante fuera).",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "El término solitario de aquel lado (la z) es quien atraviesa abriendo y dirigiendo el cono vertical.",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "Hiperboloides",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "Las tres variables cuadáticas saltan en la cancha e igualan a 1 .",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "De UNA hoja (El reactor nuclear, hiperboloide infinito con cintura pero nunca cortado): Tiene un término con signo negativo y dos positivos.",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "El eje principal cruza por la variable estigmatizada de aquel negativo.",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "De DOS hojas (Un par de tazones solitarios flotando contrapuestos): Tiene increíblemente dos términos de signos negativos y un huérfano positivo dictándoles quién manda por la vía recta separadora.",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "Paraboloides",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "SÓLO DOS variables corren elevándose al cuadrado.",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "La última se queda aburrida a potencia lineal.",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "Paraboloide Elíptico (La famosa 'tacita'): Las dos variables al cuadrado de aquel lado ostentan el mismo signo.",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "Y se abren por completo sobre el eje de la valiente variable lineal central: z = \\frac{x^2",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
+  },
+  {
+    "text": "Paraboloide Hiperbólico (La \"Silla de Montar\"): Las dos variables del cuadrado poseen ahora mismo doloroso y temible signos opuestos: z = \\frac{x^2",
+    "path": "/parcial3/conicas/cuadricas",
+    "parcial": 3,
+    "temaTitle": "5. Cónicas y Cuádricas",
+    "topicTitle": "Superficies Cuádricas"
   }
 ]

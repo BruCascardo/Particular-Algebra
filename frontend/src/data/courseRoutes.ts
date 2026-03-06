@@ -73,4 +73,36 @@ export const courseRoutes: CourseRoute[] = [
   { path: '/parcial2/determinantes/preliminares', parcial: 2, temaTitle: '6. Determinantes', topicTitle: 'Definiciones Preliminares y Adjunta' },
   { path: '/parcial2/determinantes/inversa', parcial: 2, temaTitle: '6. Determinantes', topicTitle: 'Expresión para la matriz inversa y teoremas' },
   { path: '/parcial2/determinantes/relacion-traza-determinante', parcial: 2, temaTitle: '6. Determinantes', topicTitle: 'Relación entre Traza y Determinante' },
+
+  // Parcial 3
+  { path: '/parcial3/espacios/definicion', parcial: 3, temaTitle: '1. Espacios Vectoriales', topicTitle: 'Definición y propiedades fundamentales' },
+  { path: '/parcial3/espacios/subespacios', parcial: 3, temaTitle: '1. Espacios Vectoriales', topicTitle: 'Subespacios vectoriales (condiciones)' },
+  { path: '/parcial3/espacios/combinacion-lineal', parcial: 3, temaTitle: '1. Espacios Vectoriales', topicTitle: 'Combinación lineal y Espacio generado' },
+  { path: '/parcial3/espacios/dependencia-lineal', parcial: 3, temaTitle: '1. Espacios Vectoriales', topicTitle: 'Dependencia e Independencia Lineal' },
+  { path: '/parcial3/espacios/base-dimension', parcial: 3, temaTitle: '1. Espacios Vectoriales', topicTitle: 'Bases y Dimensión' },
+  { path: '/parcial3/espacios/cambio-base', parcial: 3, temaTitle: '1. Espacios Vectoriales', topicTitle: 'Coordenadas y Matriz de Cambio de Base' },
+
+  { path: '/parcial3/producto-interior/definicion', parcial: 3, temaTitle: '2. Espacios con Producto Interior', topicTitle: 'Producto interior (Definición y axiomas)' },
+  { path: '/parcial3/producto-interior/norma-distancia-angulo', parcial: 3, temaTitle: '2. Espacios con Producto Interior', topicTitle: 'Norma, distancia y ángulo entre vectores' },
+  { path: '/parcial3/producto-interior/ortogonalidad', parcial: 3, temaTitle: '2. Espacios con Producto Interior', topicTitle: 'Ortogonalidad y conjuntos ortonormales' },
+  { path: '/parcial3/producto-interior/gram-schmidt', parcial: 3, temaTitle: '2. Espacios con Producto Interior', topicTitle: 'Proceso de Gram-Schmidt' },
+  { path: '/parcial3/producto-interior/proyeccion', parcial: 3, temaTitle: '2. Espacios con Producto Interior', topicTitle: 'Complemento Ortogonal y Proyección Ortogonal' },
+
+  { path: '/parcial3/transformaciones/definicion', parcial: 3, temaTitle: '3. Transformaciones Lineales', topicTitle: 'Definición de Transformación Lineal (TL)' },
+  { path: '/parcial3/transformaciones/nucleo-imagen', parcial: 3, temaTitle: '3. Transformaciones Lineales', topicTitle: 'Núcleo e Imagen de una TL' },
+  { path: '/parcial3/transformaciones/teorema-dimensiones', parcial: 3, temaTitle: '3. Transformaciones Lineales', topicTitle: 'Teorema de las Dimensiones' },
+  { path: '/parcial3/transformaciones/matriz-asociada', parcial: 3, temaTitle: '3. Transformaciones Lineales', topicTitle: 'Matriz asociada a una TL' },
+  { path: '/parcial3/transformaciones/composicion-inversa', parcial: 3, temaTitle: '3. Transformaciones Lineales', topicTitle: 'Composición e Inversa de Transformaciones' },
+
+  { path: '/parcial3/autovalores/definicion', parcial: 3, temaTitle: '4. Autovalores y Autovectores', topicTitle: 'Autovalores y Autovectores (Valores y Vectores Propios)' },
+  { path: '/parcial3/autovalores/polinomio-caracteristico', parcial: 3, temaTitle: '4. Autovalores y Autovectores', topicTitle: 'Polinomio Característico' },
+  { path: '/parcial3/autovalores/multiplicidad', parcial: 3, temaTitle: '4. Autovalores y Autovectores', topicTitle: 'Espacios Propios y Multiplicidad' },
+  { path: '/parcial3/autovalores/diagonalizacion', parcial: 3, temaTitle: '4. Autovalores y Autovectores', topicTitle: 'Diagonalización de Matrices' },
+  { path: '/parcial3/autovalores/diagonalizacion-ortogonal', parcial: 3, temaTitle: '4. Autovalores y Autovectores', topicTitle: 'Diagonalización Ortogonal (Matrices Simétricas)' },
+
+  { path: '/parcial3/conicas/parabola-circunferencia', parcial: 3, temaTitle: '5. Cónicas y Cuádricas', topicTitle: 'Circunferencia y Parábola' },
+  { path: '/parcial3/conicas/elipse-hiperbola', parcial: 3, temaTitle: '5. Cónicas y Cuádricas', topicTitle: 'Elipse e Hipérbola' },
+  { path: '/parcial3/conicas/ecuacion-general', parcial: 3, temaTitle: '5. Cónicas y Cuádricas', topicTitle: 'Ecuación General de 2do Grado' },
+  { path: '/parcial3/conicas/rotacion-traslacion', parcial: 3, temaTitle: '5. Cónicas y Cuádricas', topicTitle: 'Rotación y Traslación de Ejes' },
+  { path: '/parcial3/conicas/cuadricas', parcial: 3, temaTitle: '5. Cónicas y Cuádricas', topicTitle: 'Superficies Cuádricas' }
 ];
