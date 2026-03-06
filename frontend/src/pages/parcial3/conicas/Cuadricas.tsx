@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { InlineMath, BlockMath } from 'react-katex';
 import TopicHeader from '../../../components/TopicHeader';
 import TopicNavigation from '../../../components/TopicNavigation';
 import AiChatBot from '../../../components/AiChatBot';
+import { useConfig } from '../../../context/ConfigContext';
+import TrainingQuiz from '../../../components/TrainingQuiz';
+import { parcial3Tema5Questions } from '../../../data/quizzes';
 import './ConicasTopic.css';
 
 const Cuadricas: React.FC = () => {
+  const { isTrainingMode } = useConfig();
+  const [quizPassed, setQuizPassed] = useState(false);
   return (
     <div className="conicas-topic-container">
       <TopicHeader 
@@ -82,9 +87,17 @@ const Cuadricas: React.FC = () => {
 
       </main>
 
-      <TopicNavigation 
-        prevPath="/parcial3/conicas/rotacion-traslacion" 
-      />
+      {isTrainingMode && !quizPassed ? (
+        <TrainingQuiz 
+          questions={parcial3Tema5Questions} 
+          onPass={() => setQuizPassed(true)} 
+          topicName="5.5 Superficies Cuádricas" 
+        />
+      ) : (
+        <TopicNavigation 
+          prevPath="/parcial3/conicas/rotacion-traslacion" 
+        />
+      )}
 
       <AiChatBot 
         topicTitle="Superficies Cuádricas 3D" 

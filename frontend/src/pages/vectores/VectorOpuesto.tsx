@@ -4,9 +4,14 @@ import { InlineMath, BlockMath } from 'react-katex';
 import TopicHeader from '../../components/TopicHeader';
 import TopicNavigation from '../../components/TopicNavigation';
 import AiChatBot from '../../components/AiChatBot';
+import { useConfig } from '../../context/ConfigContext';
+import TrainingQuiz from '../../components/TrainingQuiz';
+import { parcial1Tema1Questions } from '../../data/quizzes';
 import './VectorTopic.css';
 
 const VectorOpuesto: React.FC = () => {
+  const { isTrainingMode } = useConfig();
+  const [quizPassed, setQuizPassed] = React.useState(false);
 
   return (
     <div className="vector-topic-container">
@@ -61,11 +66,20 @@ const VectorOpuesto: React.FC = () => {
         </div>
       </main>
 
-      <TopicNavigation 
-        prevPath="/parcial1/vectores/versor"
-        nextPath="/parcial1/operaciones/suma-vectores"
-        nextLabel="Siguiente Tema"
-      />
+      {/* Módulo de Entrenamiento (Conditional Render) */}
+      {isTrainingMode && !quizPassed ? (
+        <TrainingQuiz 
+          questions={parcial1Tema1Questions}
+          topicName="1. Vectores"
+          onPass={() => setQuizPassed(true)}
+        />
+      ) : (
+        <TopicNavigation 
+          prevPath="/parcial1/vectores/versor"
+          nextPath="/parcial1/operaciones/suma-vectores"
+          nextLabel="Siguiente Tema"
+        />
+      )}
 
       <AiChatBot 
         topicTitle="Vector Opuesto" 

@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import 'katex/dist/katex.min.css';
 import { InlineMath, BlockMath } from 'react-katex';
 import TopicHeader from '../../../components/TopicHeader';
 import TopicNavigation from '../../../components/TopicNavigation';
 import AiChatBot from '../../../components/AiChatBot';
+import { useConfig } from '../../../context/ConfigContext';
+import TrainingQuiz from '../../../components/TrainingQuiz';
+import { parcial2Tema2Questions } from '../../../data/quizzes';
 import '../../vectores/VectorTopic.css';
 
 const Interpretacion: React.FC = () => {
+  const { isTrainingMode } = useConfig();
+  const [quizPassed, setQuizPassed] = useState(false);
+
   return (
     <div className="vector-topic-container">
       <TopicHeader 
@@ -61,10 +67,18 @@ const Interpretacion: React.FC = () => {
 
       </main>
 
-      <TopicNavigation 
-        prevPath="/parcial2/escalonada/sistemas-homogeneos"
-        nextPath="/parcial2/matrices/definicion" 
-      />
+      {!isTrainingMode || quizPassed ? (
+        <TopicNavigation 
+          prevPath="/parcial2/escalonada/sistemas-homogeneos"
+          nextPath="/parcial2/matrices/definicion" 
+        />
+      ) : (
+        <TrainingQuiz 
+          topicName="Tema 2: Matriz Escalonada y Teoremas"
+          questions={parcial2Tema2Questions} 
+          onPass={() => setQuizPassed(true)} 
+        />
+      )}
     
       <AiChatBot 
         topicTitle="Interpretación Geométrica vs Algebraica por Columnas" 

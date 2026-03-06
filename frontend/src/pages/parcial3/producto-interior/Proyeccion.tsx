@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { InlineMath, BlockMath } from 'react-katex';
 import TopicHeader from '../../../components/TopicHeader';
 import TopicNavigation from '../../../components/TopicNavigation';
 import AiChatBot from '../../../components/AiChatBot';
+import { useConfig } from '../../../context/ConfigContext';
+import TrainingQuiz from '../../../components/TrainingQuiz';
+import { parcial3Tema2Questions } from '../../../data/quizzes';
 import './ProductoInteriorTopic.css';
 
 const Proyeccion: React.FC = () => {
+  const { isTrainingMode } = useConfig();
+  const [quizPassed, setQuizPassed] = useState(false);
   return (
     <div className="pi-topic-container">
       <TopicHeader 
@@ -75,9 +80,17 @@ const Proyeccion: React.FC = () => {
 
       </main>
 
-      <TopicNavigation 
-        prevPath="/parcial3/producto-interior/gram-schmidt" 
-      />
+      {isTrainingMode && !quizPassed ? (
+        <TrainingQuiz 
+          questions={parcial3Tema2Questions} 
+          onPass={() => setQuizPassed(true)} 
+          topicName="2.5 Complemento Ortogonal y Proyección Ortogonal" 
+        />
+      ) : (
+        <TopicNavigation 
+          prevPath="/parcial3/producto-interior/gram-schmidt" 
+        />
+      )}
 
       <AiChatBot 
         topicTitle="Complemento Ortogonal y Proyección Ortogonal" 

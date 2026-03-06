@@ -4,9 +4,14 @@ import { InlineMath, BlockMath } from 'react-katex';
 import TopicHeader from '../../components/TopicHeader';
 import TopicNavigation from '../../components/TopicNavigation';
 import AiChatBot from '../../components/AiChatBot';
+import { useConfig } from '../../context/ConfigContext';
+import TrainingQuiz from '../../components/TrainingQuiz';
+import { parcial1Tema4Questions } from '../../data/quizzes';
 import '../vectores/VectorTopic.css';
 
 const ProductoMixto: React.FC = () => {
+  const { isTrainingMode } = useConfig();
+  const [quizPassed, setQuizPassed] = React.useState(false);
 
   return (
     <div className="vector-topic-container">
@@ -62,10 +67,18 @@ const ProductoMixto: React.FC = () => {
 
       </main>
 
-      <TopicNavigation 
-        prevPath="/parcial1/productos/producto-vectorial"
-        nextPath="/parcial1/recta-plano/ecuaciones-recta"
-      />
+      {isTrainingMode && !quizPassed ? (
+        <TrainingQuiz 
+          questions={parcial1Tema4Questions}
+          topicName="4. Productos Vectoriales"
+          onPass={() => setQuizPassed(true)}
+        />
+      ) : (
+        <TopicNavigation 
+          prevPath="/parcial1/productos/producto-vectorial"
+          nextPath="/parcial1/recta-plano/ecuaciones-recta"
+        />
+      )}
     
       <AiChatBot 
         topicTitle="Producto Mixto" 

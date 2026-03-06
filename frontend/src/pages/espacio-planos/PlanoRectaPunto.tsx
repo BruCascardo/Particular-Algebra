@@ -4,9 +4,14 @@ import { InlineMath, BlockMath } from 'react-katex';
 import TopicHeader from '../../components/TopicHeader';
 import TopicNavigation from '../../components/TopicNavigation';
 import AiChatBot from '../../components/AiChatBot';
+import { useConfig } from '../../context/ConfigContext';
+import TrainingQuiz from '../../components/TrainingQuiz';
+import { parcial1Tema6Questions } from '../../data/quizzes';
 import '../vectores/VectorTopic.css';
 
 const PlanoRectaPunto: React.FC = () => {
+  const { isTrainingMode } = useConfig();
+  const [quizPassed, setQuizPassed] = React.useState(false);
 
   return (
     <div className="vector-topic-container">
@@ -60,11 +65,19 @@ const PlanoRectaPunto: React.FC = () => {
 
       </main>
 
-      <TopicNavigation 
-        prevPath="/parcial1/espacio-planos/coplanaridad-rectas"
-        nextPath="/parcial1"
-        nextLabel="Terminar Temario (Inicio)"
-      />
+      {isTrainingMode && !quizPassed ? (
+        <TrainingQuiz 
+          questions={parcial1Tema6Questions}
+          topicName="6. La Recta y el Plano en el Espacio"
+          onPass={() => setQuizPassed(true)}
+        />
+      ) : (
+        <TopicNavigation 
+          prevPath="/parcial1/espacio-planos/coplanaridad-rectas"
+          nextPath="/parcial1"
+          nextLabel="Terminar Temario (Inicio)"
+        />
+      )}
     
       <AiChatBot 
         topicTitle="Plano por Recta y Punto" 

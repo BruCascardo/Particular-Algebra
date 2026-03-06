@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { InlineMath, BlockMath } from 'react-katex';
 import TopicHeader from '../../../components/TopicHeader';
 import TopicNavigation from '../../../components/TopicNavigation';
 import AiChatBot from '../../../components/AiChatBot';
+import { useConfig } from '../../../context/ConfigContext';
+import TrainingQuiz from '../../../components/TrainingQuiz';
+import { parcial3Tema4Questions } from '../../../data/quizzes';
 import './AutovaloresTopic.css';
 
 const DiagonalizacionOrtogonal: React.FC = () => {
+  const { isTrainingMode } = useConfig();
+  const [quizPassed, setQuizPassed] = useState(false);
   return (
     <div className="av-topic-container">
       <TopicHeader 
@@ -63,9 +68,17 @@ const DiagonalizacionOrtogonal: React.FC = () => {
 
       </main>
 
-      <TopicNavigation 
-        prevPath="/parcial3/autovalores/diagonalizacion" 
-      />
+      {isTrainingMode && !quizPassed ? (
+        <TrainingQuiz 
+          questions={parcial3Tema4Questions} 
+          onPass={() => setQuizPassed(true)} 
+          topicName="4.3 Diagonalización Ortogonal" 
+        />
+      ) : (
+        <TopicNavigation 
+          prevPath="/parcial3/autovalores/diagonalizacion" 
+        />
+      )}
 
       <AiChatBot 
         topicTitle="Diagonalización Ortogonal y Teorema Espectral" 

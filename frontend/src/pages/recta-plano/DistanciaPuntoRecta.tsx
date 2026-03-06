@@ -4,9 +4,14 @@ import { InlineMath, BlockMath } from 'react-katex';
 import TopicHeader from '../../components/TopicHeader';
 import TopicNavigation from '../../components/TopicNavigation';
 import AiChatBot from '../../components/AiChatBot';
+import { useConfig } from '../../context/ConfigContext';
+import TrainingQuiz from '../../components/TrainingQuiz';
+import { parcial1Tema5Questions } from '../../data/quizzes';
 import '../vectores/VectorTopic.css';
 
 const DistanciaPuntoRecta: React.FC = () => {
+  const { isTrainingMode } = useConfig();
+  const [quizPassed, setQuizPassed] = React.useState(false);
 
   return (
     <div className="vector-topic-container">
@@ -51,10 +56,18 @@ const DistanciaPuntoRecta: React.FC = () => {
 
       </main>
 
-      <TopicNavigation 
-        prevPath="/parcial1/recta-plano/perpendicularidad-paralelismo"
-        nextPath="/parcial1/espacio-planos/formas-espaciales"
-      />
+      {isTrainingMode && !quizPassed ? (
+        <TrainingQuiz 
+          questions={parcial1Tema5Questions}
+          topicName="5. La Recta en el Plano"
+          onPass={() => setQuizPassed(true)}
+        />
+      ) : (
+        <TopicNavigation 
+          prevPath="/parcial1/recta-plano/perpendicularidad-paralelismo"
+          nextPath="/parcial1/espacio-planos/formas-espaciales"
+        />
+      )}
     
       <AiChatBot 
         topicTitle="Distancia Punto a Recta" 

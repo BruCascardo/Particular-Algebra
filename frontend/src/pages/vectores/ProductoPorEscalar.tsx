@@ -4,9 +4,14 @@ import { InlineMath, BlockMath } from 'react-katex';
 import TopicHeader from '../../components/TopicHeader';
 import TopicNavigation from '../../components/TopicNavigation';
 import AiChatBot from '../../components/AiChatBot';
+import { useConfig } from '../../context/ConfigContext';
+import TrainingQuiz from '../../components/TrainingQuiz';
+import { parcial1Tema2Questions } from '../../data/quizzes';
 import './VectorTopic.css';
 
 const ProductoPorEscalar: React.FC = () => {
+  const { isTrainingMode } = useConfig();
+  const [quizPassed, setQuizPassed] = React.useState(false);
 
   return (
     <div className="vector-topic-container">
@@ -94,10 +99,20 @@ const ProductoPorEscalar: React.FC = () => {
         </div>
       </main>
 
-      <TopicNavigation 
-        prevPath="/parcial1/operaciones/modulo-dos-puntos"
-        nextPath="/parcial1/sistemas/referencias-dimensiones"
-      />
+      {/* Módulo de Entrenamiento (Conditional Render) */}
+      {isTrainingMode && !quizPassed ? (
+        <TrainingQuiz 
+          questions={parcial1Tema2Questions}
+          topicName="2. Operaciones con Vectores"
+          onPass={() => setQuizPassed(true)}
+        />
+      ) : (
+        <TopicNavigation 
+          prevPath="/parcial1/operaciones/modulo-dos-puntos"
+          nextPath="/parcial1/sistemas/referencias-dimensiones"
+          nextLabel="Siguiente Tema"
+        />
+      )}
     
       <AiChatBot 
         topicTitle="Producto por un Escalar" 

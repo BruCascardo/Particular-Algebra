@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import 'katex/dist/katex.min.css';
 import { InlineMath, BlockMath } from 'react-katex';
 import TopicHeader from '../../../components/TopicHeader';
 import TopicNavigation from '../../../components/TopicNavigation';
 import AiChatBot from '../../../components/AiChatBot';
+import { useConfig } from '../../../context/ConfigContext';
+import TrainingQuiz from '../../../components/TrainingQuiz';
+import { parcial2Tema1Questions } from '../../../data/quizzes';
 import '../../vectores/VectorTopic.css';
 
 const VariablesLibres: React.FC = () => {
+  const { isTrainingMode } = useConfig();
+  const [quizPassed, setQuizPassed] = useState(false);
+
   return (
     <div className="vector-topic-container">
       <TopicHeader 
@@ -76,10 +82,18 @@ const VariablesLibres: React.FC = () => {
 
       </main>
 
-      <TopicNavigation 
-        prevPath="/parcial2/sistemas/pivote"
-        nextPath="/parcial2/escalonada/matriz-escalonada" 
-      />
+      {!isTrainingMode || quizPassed ? (
+        <TopicNavigation 
+          prevPath="/parcial2/sistemas/pivote"
+          nextPath="/parcial2/escalonada/matriz-escalonada" 
+        />
+      ) : (
+        <TrainingQuiz 
+          topicName="Tema 1: Sistemas de Ecuaciones Lineales"
+          questions={parcial2Tema1Questions} 
+          onPass={() => setQuizPassed(true)} 
+        />
+      )}
     
       <AiChatBot 
         topicTitle="Variables Libres, Principales y Rango Matemático" 

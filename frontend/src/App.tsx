@@ -1,10 +1,13 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
+import Header from './components/Header';
 import Home from './pages/Home';
 import Parcial1 from './pages/Parcial1';
 import Parcial2 from './pages/Parcial2';
 import Parcial3 from './pages/Parcial3';
+import Finales from './pages/Finales';
+import Configuracion from './pages/Configuracion';
 
 // Theme 1: Vectores
 import SegmentoOrientado from './pages/vectores/SegmentoOrientado';
@@ -118,15 +121,22 @@ import EcuacionGeneral from './pages/parcial3/conicas/EcuacionGeneral';
 import RotacionTraslacion from './pages/parcial3/conicas/RotacionTraslacion';
 import Cuadricas from './pages/parcial3/conicas/Cuadricas';
 
+// Tools Route
+import Tools from './pages/tools/Tools';
+
 const App: React.FC = () => {
   return (
     <>
       <ScrollToTop />
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/parcial1" element={<Parcial1 />} />
         <Route path="/parcial2" element={<Parcial2 />} />
         <Route path="/parcial3" element={<Parcial3 />} />
+        <Route path="/finales" element={<Finales />} />
+        <Route path="/configuracion" element={<Configuracion />} />
+        <Route path="/herramientas" element={<Tools />} />
         
         {/* ======================= PARCIAL 1 ======================= */}
         

@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { InlineMath, BlockMath } from 'react-katex';
 import TopicHeader from '../../../components/TopicHeader';
 import TopicNavigation from '../../../components/TopicNavigation';
 import AiChatBot from '../../../components/AiChatBot';
+import { useConfig } from '../../../context/ConfigContext';
+import TrainingQuiz from '../../../components/TrainingQuiz';
+import { parcial3Tema1Questions } from '../../../data/quizzes';
 import './EspaciosTopic.css';
 
 const CambioBase: React.FC = () => {
+  const { isTrainingMode } = useConfig();
+  const [quizPassed, setQuizPassed] = useState(false);
   return (
     <div className="espacios-topic-container">
       <TopicHeader 
@@ -68,9 +73,17 @@ const CambioBase: React.FC = () => {
 
       </main>
 
-      <TopicNavigation 
-        prevPath="/parcial3/espacios/base-dimension"
-      />
+      {isTrainingMode && !quizPassed ? (
+        <TrainingQuiz 
+          questions={parcial3Tema1Questions} 
+          onPass={() => setQuizPassed(true)} 
+          topicName="1.6 Coordenadas y Matriz de Cambio de Base" 
+        />
+      ) : (
+        <TopicNavigation 
+          prevPath="/parcial3/espacios/base-dimension"
+        />
+      )}
 
       <AiChatBot 
         topicTitle="Coordenadas y Matriz de Cambio de Base" 

@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import 'katex/dist/katex.min.css';
 import { InlineMath, BlockMath } from 'react-katex';
 import TopicHeader from '../../../components/TopicHeader';
 import TopicNavigation from '../../../components/TopicNavigation';
 import AiChatBot from '../../../components/AiChatBot';
+import { useConfig } from '../../../context/ConfigContext';
+import TrainingQuiz from '../../../components/TrainingQuiz';
+import { parcial2Tema4Questions } from '../../../data/quizzes';
 import '../../vectores/VectorTopic.css';
 
 const ProductoMatricial: React.FC = () => {
+  const { isTrainingMode } = useConfig();
+  const [quizPassed, setQuizPassed] = useState(false);
+
   return (
     <div className="vector-topic-container">
       <TopicHeader 
@@ -85,10 +91,18 @@ const ProductoMatricial: React.FC = () => {
 
       </main>
 
-      <TopicNavigation 
-        prevPath="/parcial2/operaciones/transposicion"
-        nextPath="/parcial2/propiedades/inversa-identidad" 
-      />
+      {!isTrainingMode || quizPassed ? (
+        <TopicNavigation 
+          prevPath="/parcial2/operaciones/transposicion"
+          nextPath="/parcial2/propiedades/inversa-identidad" 
+        />
+      ) : (
+        <TrainingQuiz 
+          topicName="Tema 4: Operaciones con Matrices"
+          questions={parcial2Tema4Questions} 
+          onPass={() => setQuizPassed(true)} 
+        />
+      )}
     
       <AiChatBot 
         topicTitle="Producto Matricial por Filas y Columnas" 

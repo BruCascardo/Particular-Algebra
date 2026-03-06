@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { InlineMath, BlockMath } from 'react-katex';
 import TopicHeader from '../../../components/TopicHeader';
 import TopicNavigation from '../../../components/TopicNavigation';
 import AiChatBot from '../../../components/AiChatBot';
+import { useConfig } from '../../../context/ConfigContext';
+import TrainingQuiz from '../../../components/TrainingQuiz';
+import { parcial3Tema3Questions } from '../../../data/quizzes';
 import './TransformacionesTopic.css';
 
 const ComposicionInversa: React.FC = () => {
+  const { isTrainingMode } = useConfig();
+  const [quizPassed, setQuizPassed] = useState(false);
   return (
     <div className="tl-topic-container">
       <TopicHeader 
@@ -68,9 +73,17 @@ const ComposicionInversa: React.FC = () => {
 
       </main>
 
-      <TopicNavigation 
-        prevPath="/parcial3/transformaciones/matriz-asociada" 
-      />
+      {isTrainingMode && !quizPassed ? (
+        <TrainingQuiz 
+          questions={parcial3Tema3Questions} 
+          onPass={() => setQuizPassed(true)} 
+          topicName="3.2 Composición e Inversa de Transformaciones" 
+        />
+      ) : (
+        <TopicNavigation 
+          prevPath="/parcial3/transformaciones/matriz-asociada" 
+        />
+      )}
 
       <AiChatBot 
         topicTitle="Composición e Inversa de Transformaciones" 

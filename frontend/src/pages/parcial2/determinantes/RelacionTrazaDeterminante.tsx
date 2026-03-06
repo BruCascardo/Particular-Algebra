@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import 'katex/dist/katex.min.css';
 import { InlineMath, BlockMath } from 'react-katex';
 import TopicHeader from '../../../components/TopicHeader';
 import TopicNavigation from '../../../components/TopicNavigation';
 import AiChatBot from '../../../components/AiChatBot';
+import { useConfig } from '../../../context/ConfigContext';
+import TrainingQuiz from '../../../components/TrainingQuiz';
+import { parcial2Tema6Questions } from '../../../data/quizzes';
 import '../../vectores/VectorTopic.css';
 
 const RelacionTrazaDeterminante: React.FC = () => {
+  const { isTrainingMode } = useConfig();
+  const [quizPassed, setQuizPassed] = useState(false);
+
   return (
     <div className="vector-topic-container">
       <TopicHeader 
@@ -72,11 +78,19 @@ const RelacionTrazaDeterminante: React.FC = () => {
 
       </main>
 
-      <TopicNavigation 
-        prevPath="/parcial2/determinantes/inversa"
-        nextPath="/parcial2" 
-        nextLabel="Volver al Menú"
-      />
+      {!isTrainingMode || quizPassed ? (
+        <TopicNavigation 
+          prevPath="/parcial2/determinantes/inversa"
+          nextPath="/parcial2" 
+          nextLabel="Volver al Menú"
+        />
+      ) : (
+        <TrainingQuiz 
+          topicName="Tema 6: Determinantes"
+          questions={parcial2Tema6Questions} 
+          onPass={() => setQuizPassed(true)} 
+        />
+      )}
     
       <AiChatBot 
         topicTitle="El Vínculo Oculto: Traza, Determinante y Polinómios" 

@@ -4,9 +4,14 @@ import { InlineMath, BlockMath } from 'react-katex';
 import TopicHeader from '../../components/TopicHeader';
 import TopicNavigation from '../../components/TopicNavigation';
 import AiChatBot from '../../components/AiChatBot';
+import { useConfig } from '../../context/ConfigContext';
+import TrainingQuiz from '../../components/TrainingQuiz';
+import { parcial1Tema3Questions } from '../../data/quizzes';
 import '../vectores/VectorTopic.css';
 
 const ProyeccionOrtogonal: React.FC = () => {
+  const { isTrainingMode } = useConfig();
+  const [quizPassed, setQuizPassed] = React.useState(false);
 
   return (
     <div className="vector-topic-container">
@@ -65,10 +70,18 @@ const ProyeccionOrtogonal: React.FC = () => {
 
       </main>
 
-      <TopicNavigation 
-        prevPath="/parcial1/sistemas/condicion-paralelismo"
-        nextPath="/parcial1/productos/producto-escalar"
-      />
+      {isTrainingMode && !quizPassed ? (
+        <TrainingQuiz 
+          questions={parcial1Tema3Questions}
+          topicName="3. Sistemas y Referencias"
+          onPass={() => setQuizPassed(true)}
+        />
+      ) : (
+        <TopicNavigation 
+          prevPath="/parcial1/sistemas/condicion-paralelismo"
+          nextPath="/parcial1/productos/producto-escalar"
+        />
+      )}
     
       <AiChatBot 
         topicTitle="Proyección Ortogonal" 

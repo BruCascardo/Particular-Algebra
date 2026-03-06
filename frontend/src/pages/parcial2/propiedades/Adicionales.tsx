@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import 'katex/dist/katex.min.css';
 import { InlineMath, BlockMath } from 'react-katex';
 import TopicHeader from '../../../components/TopicHeader';
 import TopicNavigation from '../../../components/TopicNavigation';
 import AiChatBot from '../../../components/AiChatBot';
+import { useConfig } from '../../../context/ConfigContext';
+import TrainingQuiz from '../../../components/TrainingQuiz';
+import { parcial2Tema5Questions } from '../../../data/quizzes';
 import '../../vectores/VectorTopic.css';
 
 const Adicionales: React.FC = () => {
+  const { isTrainingMode } = useConfig();
+  const [quizPassed, setQuizPassed] = useState(false);
+
   return (
     <div className="vector-topic-container">
       <TopicHeader 
@@ -72,10 +78,18 @@ const Adicionales: React.FC = () => {
 
       </main>
 
-      <TopicNavigation 
-        prevPath="/parcial2/propiedades/traza"
-        nextPath="/parcial2/determinantes/concepto" 
-      />
+      {!isTrainingMode || quizPassed ? (
+        <TopicNavigation 
+          prevPath="/parcial2/propiedades/traza"
+          nextPath="/parcial2/determinantes/concepto" 
+        />
+      ) : (
+        <TrainingQuiz 
+          topicName="Tema 5: Propiedades Matriciales"
+          questions={parcial2Tema5Questions} 
+          onPass={() => setQuizPassed(true)} 
+        />
+      )}
     
       <AiChatBot 
         topicTitle="Atajos Operativos y Propiedades Mágicas" 
